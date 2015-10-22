@@ -316,11 +316,11 @@ a:hover {
 }
 .fontawesome.arrow {
   position: relative;
-  bottom: 24px;
+  bottom: 19px;
   z-index: 0;
   display: block;
   font-family: Fontawesome, sans-serif;
-  font-size: 50px;
+  font-size: 70px;
 }
 .fontawesome.hero-icon {
   color: black;
@@ -358,6 +358,9 @@ a:hover {
   background-color: white;
   text-align: center;
 }
+.card-img.usa {
+  padding-bottom: 55px;
+}
 .imgcity {
   -webkit-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;
@@ -384,9 +387,12 @@ a:hover {
   margin-top: 15px;
   color: black;
   font-size: 18px;
-  line-height: 15px;
+  line-height: 25px;
   font-weight: 500;
   text-transform: uppercase;
+}
+.name-country.usa {
+  margin-bottom: 25px;
 }
 .img-city-wrapper {
   display: inline-block;
@@ -973,6 +979,9 @@ a:hover {
 .wrapper-more {
   opacity: 1;
 }
+.wrapper-more.usa {
+  margin-bottom: 25px;
+}
 .box {
   position: fixed;
   left: 0px;
@@ -1100,6 +1109,12 @@ a:hover {
   opacity: 0;
 }
 .window.call_w {
+  display: block;
+  opacity: 1;
+}
+.window.call_w._2 {
+  display: none;
+  border: 5px solid #309be2;
   opacity: 0;
 }
 .text-btn {
@@ -1270,12 +1285,21 @@ a:hover {
   height: 155px;
   border-bottom: 1px none black;
 }
+.text-more-visa.britan {
+  border-bottom: 1px none black;
+}
 .text-more-in {
   padding-right: 10px;
   padding-bottom: 15px;
   padding-left: 10px;
   font-size: 14px;
   line-height: 20px;
+}
+.text-more-in.spec {
+  padding-bottom: 25px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
 }
 .viberl-ink {
   position: relative;
@@ -1325,6 +1349,12 @@ a:hover {
 }
 .winda-col1 {
   border-right: 5px solid #309be2;
+}
+.videlenie {
+  font-weight: 700;
+}
+.col2_border {
+  border-left: 5px solid #309be2;
 }
 @media (max-width: 991px) {
   .tel {
@@ -1594,6 +1624,31 @@ a:hover {
   .window.width {
     width: 700px;
   }
+  .window.width.ltu_m {
+    display: none;
+    opacity: 0;
+  }
+  .window.width.esp_m {
+    opacity: 0;
+  }
+  .window.width.ita_w {
+    opacity: 0;
+  }
+  .window.width.cze_w {
+    opacity: 0;
+  }
+  .window.width.nld_w {
+    opacity: 0;
+  }
+  .window.width.gbr_w {
+    opacity: 0;
+  }
+  .window.width.can_w {
+    opacity: 0;
+  }
+  .window.width.nzl_w {
+    opacity: 1;
+  }
   .window.call_w {
     width: 50%;
   }
@@ -1613,6 +1668,9 @@ a:hover {
   .row-visas {
     width: 100%;
   }
+  .price-visa.gbr_s {
+    font-size: 17px;
+  }
   .text-more-visa {
     overflow-x: auto;
     overflow-y: auto;
@@ -1623,7 +1681,12 @@ a:hover {
     overflow-y: auto;
     height: 167px;
   }
+  .text-more-visa.last.litva {
+    height: 192px;
+  }
   .text-more-visa.britan {
+    overflow-x: visible;
+    overflow-y: visible;
     height: 184px;
   }
   .viberl-ink {
@@ -1924,21 +1987,44 @@ a:hover {
     margin-top: 7%;
   }
   .window.width.deu_m {
-    display: block;
+    display: none;
+    opacity: 0;
   }
   .window.width.ltu_m {
-    display: block;
+    display: none;
+    opacity: 0;
   }
   .window.width.lva_m {
-    opacity: 1;
+    display: none;
+    opacity: 0;
   }
   .window.width.pol_m {
-    opacity: 1;
+    display: none;
+    opacity: 0;
+  }
+  .window.width.esp_m {
+    display: none;
+    opacity: 0;
+  }
+  .window.width.ita_w {
+    display: none;
+    opacity: 0;
+  }
+  .window.width.cze_w {
+    display: none;
+    opacity: 0;
+  }
+  .window.width.nld_w {
+    display: none;
+    opacity: 0;
   }
   .window.width.gbr_w {
-    opacity: 1;
+    opacity: 0;
   }
   .window.width.can_w {
+    opacity: 0;
+  }
+  .window.width.nzl_w {
     opacity: 1;
   }
   .window.call_w {
@@ -1958,6 +2044,12 @@ a:hover {
   .close-btn {
     top: -22px;
     right: -19px;
+  }
+  .head-visa {
+    border-bottom: 1px none black;
+  }
+  .head-visa._2type {
+    border-bottom: 5px solid #309be2;
   }
   .head-header-visa {
     font-size: 18px;
@@ -2000,10 +2092,13 @@ a:hover {
     font-size: 30px;
   }
   .winda-col1 {
-    border-bottom: 5px none #309be2;
+    border-bottom: 5px solid #309be2;
   }
   .row {
     height: 322px;
+  }
+  .col2_border.no_bord {
+    border-left: 1px none black;
   }
 }
 @media (max-width: 479px) {
@@ -2138,11 +2233,15 @@ a:hover {
     line-height: 25px;
   }
   .plus {
-    font-size: 17px;
-    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: left;
   }
   .fontawesome.arrow {
     bottom: 19px;
+  }
+  .plus-wrapper {
+    padding: 0px 20px 10px;
   }
   .card-img.hote {
     padding-bottom: 20px;
@@ -2358,6 +2457,18 @@ a:hover {
   .window.width {
     width: 230px;
   }
+  .window.width.deu_m {
+    display: none;
+    opacity: 0;
+  }
+  .window.width.ltu_m {
+    display: none;
+    opacity: 0;
+  }
+  .window.width.pol_m {
+    display: none;
+    opacity: 0;
+  }
   .window.call_w {
     width: 100%;
     margin-top: 20%;
@@ -2383,8 +2494,10 @@ a:hover {
     padding-bottom: 5px;
   }
   .close-btn {
-    top: -22px;
-    right: -20px;
+    top: -21px;
+    right: -5px;
+    border-radius: 0px;
+    box-shadow: none;
   }
   .close-btn.new-pos {
     top: -21px;
@@ -2403,6 +2516,12 @@ a:hover {
   .radio-label {
     margin-left: -4px;
     font-size: 12px;
+  }
+  .head-visa {
+    border-style: none;
+  }
+  .head-visa._2type {
+    border-bottom: 5px solid #309be2;
   }
   .head-header-visa {
     padding-top: 0px;
