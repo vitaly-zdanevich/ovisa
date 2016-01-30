@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex index.php
+RewriteCond $l !^(index\.php|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteEngine on
+RewriteBase /
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+Redirect 301 /old_page.html /new_page
+
+
+
