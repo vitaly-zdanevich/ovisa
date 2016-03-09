@@ -26,7 +26,7 @@ $(function() {
         if(wait_msg !== ''){ submit_div.attr('value', wait_msg); }
         if($(cur_id).attr('data-send') !== undefined){ $('<input type="hidden" name="sendto" value="'+$(cur_id).attr('data-send')+'">').prependTo(cur_id); }
         $('<input type="hidden" name="Форма" value="'+$(cur_id).attr('data-name')+'">').prependTo(cur_id);
-        $('<input type="hidden" name="Страница" value="'+document.location.href+'">').prependTo(cur_id);
+        //$('<input type="hidden" name="Страница" value="'+document.location.href+'">').prependTo(cur_id);
         e.preventDefault();
         var formData = new FormData($(cur_id)[0]);
         $.ajax({
