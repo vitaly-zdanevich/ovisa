@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Apr 01 2016 11:03:24 GMT+0000 (UTC) -->
+<!-- Last Published: Fri Apr 01 2016 12:51:47 GMT+0000 (UTC) -->
 <html data-wf-site="56aceaac9ecfb41e0b5ee7fc" data-wf-page="56aceaad9ecfb41e0b5ee800" data-wf-status='1'>
 
 <head>
@@ -51,7 +51,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 <?php if(file_exists('head_code.php')){ include_once 'head_code.php'; } ?></head>
 
-<body class="body">
+<body wd_update2="http://ovisa.by/" class="body">
   <div id="top" class="w-section top">
     <div class="container">
       <div class="w-row">
@@ -2698,7 +2698,7 @@
   </div>
   <div class="w-section reviews">
     <div class="container reviews_cont">
-      <h1 class="headers-style">ОТЗЫВЫ 2</h1>
+      <h1 class="headers-style">ОТЗЫВЫ</h1>
       <div data-animation="slide" data-duration="500" data-infinite="1" class="w-slider slider-reviews">
         <div class="w-slider-mask">
           <div class="w-slide slide-1-rev">
