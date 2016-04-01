@@ -47,7 +47,7 @@ try {
   $mail->SetFrom($__smtp['addreply'], $__smtp['from']);
   $mail->Subject = htmlspecialchars($subject);
   $mail->MsgHTML($content);
-
+<!-- /*
   if ($_FILES['file']['name'][0] !== '') {
     $file_ary = reArrayFiles($_FILES['file']);
 
@@ -55,6 +55,8 @@ try {
         $mail->AddAttachment($file['tmp_name'],$file['name']);
     }
   }
+*/ -->
+  
   $mail->Send(); echo('success');
 } catch (phpmailerException $e) {
   echo $e->errorMessage();
@@ -63,6 +65,7 @@ try {
 }
 }
 
+<!-- /*
 function reArrayFiles(&$file_post) {
 
     $file_ary = array();
@@ -79,3 +82,4 @@ function reArrayFiles(&$file_post) {
 }
 
 ?>
+*/ -->
