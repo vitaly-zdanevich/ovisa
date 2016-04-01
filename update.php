@@ -1,6 +1,6 @@
 <?php
 
-$domain = ''; // адрес для обновления
+$domain = 'http://vizaminsk2.webflow.io/'; // адрес для обновления
 
 if(isset($_GET['source'])){ $source_file = $_GET['source']; }
 if($source_file == ''){return;}
