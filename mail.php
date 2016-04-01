@@ -48,12 +48,34 @@ try {
   $mail->Subject = htmlspecialchars($subject);
   $mail->MsgHTML($content);
 
+  if ($_FILES['file']['name'][0] !== '') {
+    $file_ary = reArrayFiles($_FILES['file']);
+
+    foreach ($file_ary as $file) {
+        $mail->AddAttachment($file['tmp_name'],$file['name']);
+    }
+  }
   $mail->Send(); echo('success');
 } catch (phpmailerException $e) {
   echo $e->errorMessage();
 } catch (Exception $e) {
   echo $e->getMessage();
 }
+}
+
+function reArrayFiles(&$file_post) {
+
+    $file_ary = array();
+    $file_count = count($file_post['name']);
+    $file_keys = array_keys($file_post);
+
+    for ($i=0; $i<$file_count; $i++) {
+        foreach ($file_keys as $key) {
+            $file_ary[$i][$key] = $file_post[$key][$i];
+        }
+    }
+
+    return $file_ary;
 }
 
 ?>

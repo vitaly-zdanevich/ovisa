@@ -1,9 +1,8 @@
-$('form').attr('method','post');
-$('form').each(function(indx){if($(this).attr('action') === undefined){$(this).attr('action', '/');}});
-$('[data-name]').each(function(indx){$(this).attr('name', $(this).attr('data-name'));});
+var selector = 'form';
+$(selector).each(function(indx){if($(this).attr('action') === undefined){$(this).attr('action', '/').attr('method','post');}});
+$('.w-form [data-name]').each(function(indx){$(this).attr('name', $(this).attr('data-name'));});
 $(function() {
-    selector = 'form';
-    $(selector).submit(function(e) {
+    $(selector+'[action = "/"]').submit(function(e) {
 
         hide = 0; // 1 - прятать форму после отправки (0 - не прятать)
         delay = 3000; // задержка исчезновения сообщения в миллисекундах (0 - не скрывать)
@@ -14,8 +13,8 @@ $(function() {
         action = '/mail.php'; // скрипт отправки почты
 
         cur_id = '#'+$(this).attr('id');
-        if($(cur_id).attr('data-hide') !== undefined){ hide = $(cur_id).attr('data-hide'); }
-        if($(cur_id).attr('data-delay') !== undefined){ delay = $(cur_id).attr('data-delay'); }
+        if($(cur_id).attr('data-hide') !== undefined){ hide = parseInt($(cur_id).attr('data-hide')); }
+        if($(cur_id).attr('data-delay') !== undefined){ delay = parseInt($(cur_id).attr('data-delay')); }
         cur_success = $(cur_id).siblings('.w-form-done').text(); if(cur_success !== 'Thank you! Your submission has been received!'){ success_msg = cur_success; }
         cur_error = $(cur_id).siblings('.w-form-fail').text(); if(cur_error !== 'Oops! Something went wrong while submitting the form'){ error_msg = cur_error; }
         cur_wait = $(cur_id).find('[data-wait]').attr('data-wait'); if(cur_wait !== 'Please wait...'){ wait_msg = cur_wait; }
@@ -26,7 +25,7 @@ $(function() {
         if(wait_msg !== ''){ submit_div.attr('value', wait_msg); }
         if($(cur_id).attr('data-send') !== undefined){ $('<input type="hidden" name="sendto" value="'+$(cur_id).attr('data-send')+'">').prependTo(cur_id); }
         $('<input type="hidden" name="Форма" value="'+$(cur_id).attr('data-name')+'">').prependTo(cur_id);
-        //$('<input type="hidden" name="Страница" value="'+document.location.href+'">').prependTo(cur_id);
+        $('<input type="hidden" name="Страница" value="'+document.location.href+'">').prependTo(cur_id);
         e.preventDefault();
         var formData = new FormData($(cur_id)[0]);
         $.ajax({
