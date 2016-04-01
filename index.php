@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Apr 01 2016 12:51:47 GMT+0000 (UTC) -->
+<!-- Last Published: Fri Apr 01 2016 13:39:50 GMT+0000 (UTC) -->
 <html data-wf-site="56aceaac9ecfb41e0b5ee7fc" data-wf-page="56aceaad9ecfb41e0b5ee800" data-wf-status='1'>
 
 <head>
@@ -437,7 +437,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-1" name="wf-form-" data-name="Польша" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-1" name="wf-form-" data-name="Польша" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -479,7 +479,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn-1" name="wf-form-" data-name="Польша" data-redirect="/thanks" class="form-size">
+                    <form id="form-btn-1" name="wf-form-" data-name="Польша" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -645,7 +645,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-2" name="wf-form-" data-name="Литва" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-2" name="wf-form-" data-name="Литва" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -687,7 +687,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn2" name="wf-form-" data-name="Литва" data-redirect="/thanks" class="form-size">
+                    <form id="form-btn2" name="wf-form-" data-name="Литва" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph2" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -851,7 +851,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-3" name="wf-form-" data-name="Германия" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-3" name="wf-form-" data-name="Германия" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -893,7 +893,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn-3" name="wf-form-" data-name="Германия" data-redirect="/thanks" class="form-size">
+                    <form id="form-btn-3" name="wf-form-" data-name="Германия" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph3" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -1054,7 +1054,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-4" name="wf-form-" data-name="Латвия" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-4" name="wf-form-" data-name="Латвия" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -1096,7 +1096,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn-4" name="wf-form-" data-name="Латвия" data-redirect="/thanks" class="form-size">
+                    <form id="form-btn-4" name="wf-form-" data-name="Латвия" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph4" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -1259,7 +1259,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-5" name="wf-form-" data-name="Испания" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-5" name="wf-form-" data-name="Испания" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -1301,7 +1301,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn-5" name="wf-form-" data-name="Испания" data-redirect="/thanks" class="form-size">
+                    <form id="form-btn-5" name="wf-form-" data-name="Испания" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph5" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -1462,7 +1462,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-6" name="wf-form-" data-name="Италия" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-6" name="wf-form-" data-name="Италия" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -1504,7 +1504,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn-6" name="wf-form-" data-name="Италия" data-redirect="/thanks" class="form-size">
+                    <form id="form-btn-6" name="wf-form-" data-name="Италия" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph6" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -1665,7 +1665,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-7" name="wf-form-" data-name="Чешская Республика" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-7" name="wf-form-" data-name="Чешская Республика" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -1707,7 +1707,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn-7" name="wf-form-" data-name="Чешская Республика" data-redirect="/thanks" class="form-size">
+                    <form id="form-btn-7" name="wf-form-" data-name="Чешская Республика" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph7" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -1868,7 +1868,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-8" name="wf-form-" data-name="Франция" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-8" name="wf-form-" data-name="Франция" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -1910,7 +1910,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn-8" name="wf-form-" data-name="Голландия_Нидерланды" data-redirect="/thanks" class="form-size">
+                    <form id="wf-form--30" name="wf-form-" data-name="ФРАНЦИЯ" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph8" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -2058,7 +2058,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-9" name="wf-form-" data-name="Великобритания" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-9" name="wf-form-" data-name="Великобритания" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -2100,7 +2100,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn-9" name="wf-form-" data-name="Великобритания" data-redirect="/thanks" class="form-size">
+                    <form id="form-btn-9" name="wf-form-" data-name="Великобритания" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph10" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -2227,7 +2227,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-10" name="wf-form-" data-name="Канада" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-10" name="wf-form-" data-name="Канада" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -2269,7 +2269,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn-10" name="wf-form-" data-name="Канада" data-redirect="/thanks" class="form-size">
+                    <form id="form-btn-10" name="wf-form-" data-name="Канада" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph11" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -2396,7 +2396,7 @@
                       <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                       <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
                       <div class="w-form">
-                        <form id="form-more-11" name="wf-form-" data-name="Австралия" data-redirect="/thanks" class="form-size">
+                        <form id="form-more-11" name="wf-form-" data-name="Австралия" data-redirect="/thanks.html" class="form-size">
                           <div class="w-row row-visas">
                             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
                               <div class="w-radio w-clearfix radio-field">
@@ -2438,7 +2438,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                   <div class="w-form">
-                    <form id="form-btn-11" name="wf-form-" data-name="Австралия" data-redirect="/thanks" class="form-size">
+                    <form id="form-btn-11" name="wf-form-" data-name="Австралия" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                       <input id="ph12" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -2470,7 +2470,7 @@
         <h1 class="headers-style mail-chacks">Оценка шансов на получение
           <br>двухгодовой шенгенской визы</h1>
         <div class="w-form form-wrapper">
-          <form id="form-chance-1" name="wf-form-" data-name="Оценка шансов" data-redirect="/thanks" class="form">
+          <form id="form-chance-1" name="wf-form-" data-name="Оценка шансов" data-redirect="/thanks.html" class="form">
             <div class="w-row row-rad-btn _1row">
               <div class="w-col w-col-6 column-rad">
                 <label for="name" class="label-style _1row">Количество шенгенских виз
@@ -2604,7 +2604,7 @@
                 <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                 <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
                 <div class="w-form">
-                  <form id="form-take-1" name="wf-form-[-3-]" data-name="Получить визу [ 3 шага до получения ]" data-redirect="/thanks" class="form-size">
+                  <form id="form-take-1" name="wf-form-[-3-]" data-name="Получить визу [ 3 шага до получения ]" data-redirect="/thanks.html" class="form-size">
                     <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                     <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                     <input id="ph12" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -2636,7 +2636,7 @@
           <div class="spain-forma-descr">и наш менеджер оформит
             <br>для вас мультивизу</div>
           <div class="w-form">
-            <form id="form-multi-1" name="wf-form-" data-name="Полугодовой шенген в Испанию" data-redirect="/thanks" class="form-size spain-form">
+            <form id="form-multi-1" name="wf-form-" data-name="Полугодовой шенген в Испанию" data-redirect="/thanks.html" class="form-size spain-form">
               <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
               <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
               <input id="ph15" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
@@ -2772,7 +2772,7 @@
             <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
             <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
             <div class="w-form">
-              <form id="form-rewievs-1" name="wf-form-" data-name="Оставили отзыв" data-redirect="/thanks" class="form-size">
+              <form id="form-rewievs-1" name="wf-form-" data-name="Оставили отзыв" data-redirect="/thanks.html" class="form-size">
                 <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                 <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
                 <textarea id="node-6" placeholder="Ваш отзыв" data-name="Отзыв" required="required" class="w-input">
