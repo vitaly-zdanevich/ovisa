@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Apr 01 2016 10:49:35 GMT+0000 (UTC) -->
+<!-- Last Published: Fri Apr 01 2016 11:03:24 GMT+0000 (UTC) -->
 <html data-wf-site="56aceaac9ecfb41e0b5ee7fc" data-wf-page="56aceaad9ecfb41e0b5ee800" data-wf-status='1'>
 
 <head>
@@ -2698,7 +2698,7 @@
   </div>
   <div class="w-section reviews">
     <div class="container reviews_cont">
-      <h1 class="headers-style">ОТЗЫВЫ</h1>
+      <h1 class="headers-style">ОТЗЫВЫ 2</h1>
       <div data-animation="slide" data-duration="500" data-infinite="1" class="w-slider slider-reviews">
         <div class="w-slider-mask">
           <div class="w-slide slide-1-rev">
@@ -2816,7 +2816,7 @@
         </div>
       </div>
       <div class="map-block"><?php if(file_exists('map.php')){ include_once 'map.php'; } ?></div>
-      <div data-widget-latlng="53.878334,27.48994" data-widget-style="roadmap" data-widget-zoom="17" data-widget-tooltip="ул. Гурского 46, оф 20" data-disable-scroll="1" class="w-widget w-widget-map map">
+      <div data-widget-latlng="53.878334,27.48994" data-widget-style="roadmap" data-widget-zoom="17" data-widget-tooltip="ул. Гурского 46, оф 20" data-disable-scroll="1" class="w-widget w-widget-map map inter-map-none">
       </div>
     </div>
   </div>

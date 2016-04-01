@@ -646,13 +646,16 @@ a:hover {
 
 .map {
   position: relative;
-  display: none;
   height: 500px;
   background-image: url("../images/56fe436d1eef0624198282cb_56b103ef666c49ce174ff394_map.jpg");
   background-position: 50% 50%;
   background-repeat: repeat-x;
   font-size: 17px;
   line-height: 25px;
+}
+
+.map.inter-map-none {
+  display: none;
 }
 
 .map-contact {
