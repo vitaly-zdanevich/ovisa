@@ -2641,7 +2641,7 @@
               <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
               <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
               <input id="ph15" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-              <input type="submit" value="получить визу за 990.000 BYR" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn zaevka">
+              <input type="submit" value="получить визу за 390.000 BYR" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn zaevka">
             </form>
             <div class="w-form-done fon-thank">
               <p class="thank">Спасибо!
