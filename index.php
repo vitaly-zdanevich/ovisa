@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Apr 01 2016 13:39:50 GMT+0000 (UTC) -->
+<!-- Last Published: Fri Apr 08 2016 12:54:40 GMT+0000 (UTC) -->
 <html data-wf-site="56aceaac9ecfb41e0b5ee7fc" data-wf-page="56aceaad9ecfb41e0b5ee800" data-wf-status='1'>
 
 <head>
@@ -49,6 +49,7 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+<?php if(file_exists('head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php')){ include_once 'head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
 <?php if(file_exists('head_code.php')){ include_once 'head_code.php'; } ?></head>
 
 <body wd_update2="http://ovisa.by/" class="body">
@@ -59,7 +60,7 @@
           <a href="/" class="w-inline-block logo-block">
             <img width="220" src="images/56fd909cf981a22950281bd6_logo2a.svg">
             <div class="logo-description">Центр по быстрому
-              <span class="blue">открытию виз</span>в Минске</div>
+              <span class="blue">открытию виз</span>в &nbsp;Минске</div>
           </a>
         </div>
         <div class="w-col w-col-4">
@@ -73,7 +74,7 @@
         <div class="w-col w-col-4">
           <div class="tel-block">
             <a href="tel:+375296855556" class="tel">
-              <span class="min-tel">8 (029)</span>685-25-50</a>
+              <span class="min-tel">8 (029) &nbsp;</span>685-25-50</a>
             <a href="viber:+375296855556" data-ix="show-viber" class="w-inline-block viberl-ink">
               <img src="images/56aceaad9ecfb41e0b5ee813_unnamed.png">
               <div class="viber-wrapper">
@@ -120,7 +121,7 @@
       <div class="w-col w-col-6 hero-column-l">
         <div class="hero-wrapper-text">
           <h1 class="hero-header">ГАРАНТИРОВАННОЕ ОТКРЫТИЕ ШЕНГЕНСКИХ
-            <br>МУЛЬТИВИЗ В МИНСКЕ ОТ 550.000 BYR</h1>
+            <br>МУЛЬТИВИЗ В МИНСКЕ ОТ 190.000 BYR</h1>
           <div class="plus-wrapper">
             <div class="check-point">
               <img src="images/56aceaad9ecfb41e0b5ee8e3_ic_check.svg" class="ic-check">
@@ -132,7 +133,7 @@
             </div>
             <div class="check-point">
               <img src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56aceaad9ecfb41e0b5ee8e3_ic_check.svg" class="ic-check">
-              <div class="plus">Скидки до 300 000 рублей!</div>
+              <div class="plus">Гарантия получения визы 99 %!</div>
             </div>
           </div>
         </div>
@@ -2658,8 +2659,8 @@
             <span class="poland-big-text">МУЛЬТИВИЗА
               <br>НА&nbsp;2&nbsp;ГОДА В Польшу</span>
             <br>"ЗА ПОКУПКАМИ"
-            <br>ЗА 990.000 BYR</div>
-          <div class="spain-description">Успейте оставить заявку в октябре,
+            <br>ЗА 390.000 BYR</div>
+          <div class="spain-description">Успейте оставить заявку в апреле,
             <br>
             <span class="videlenie">и получите двухлетний шенген
               <br xmlns="http://www.w3.org/1999/xhtml">в Польшу</span>
@@ -2825,6 +2826,8 @@
   <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
 <script type="text/javascript" src="/mail.js"></script>
-<script type="text/javascript">$(document).ready(function(){$('[href="http://webflow.com?utm_campaign=brandjs"]').css({'display':'none'});});</script><?php if(file_exists('footer_code.php')){ include_once 'footer_code.php'; } ?></body>
+<script type="text/javascript">$(document).ready(function(){$('[href="http://webflow.com?utm_campaign=brandjs"]').css({'display':'none'});});</script>
+<?php if(file_exists('footer_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php')){ include_once 'footer_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
+<?php if(file_exists('footer_code.php')){ include_once 'footer_code.php'; } ?></body>
 
 </html>
