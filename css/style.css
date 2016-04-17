@@ -1128,14 +1128,8 @@ a:hover {
   opacity: 0;
 }
 
-.window.width.lva_m {
-  display: none;
-  opacity: 0;
-}
-
 .window.width.pol_m {
   margin-top: 5%;
-  opacity: 0;
 }
 
 .window.width.esp_m {
@@ -1154,16 +1148,6 @@ a:hover {
 }
 
 .window.width.nld_w {
-  display: none;
-  opacity: 0;
-}
-
-.window.width.gbr_w {
-  display: none;
-  opacity: 0;
-}
-
-.window.width.can_w {
   display: none;
   opacity: 0;
 }
@@ -1421,6 +1405,8 @@ a:hover {
 }
 
 .wind-col1 {
+  padding-right: 0px;
+  padding-left: 0px;
   border-right: 5px solid #309be2;
 }
 
@@ -1434,6 +1420,8 @@ a:hover {
 }
 
 .winda-col1 {
+  padding-right: 0px;
+  padding-left: 0px;
   border-right: 5px solid #309be2;
 }
 
@@ -1510,6 +1498,11 @@ a:hover {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.col-none {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 @media (max-width: 991px) {
@@ -2171,10 +2164,6 @@ a:hover {
     display: none;
     opacity: 0;
   }
-  .window.width.pol_m {
-    display: none;
-    opacity: 0;
-  }
   .window.width.esp_m {
     display: none;
     opacity: 0;
@@ -2661,10 +2650,6 @@ a:hover {
     display: none;
     opacity: 0;
   }
-  .window.width.pol_m {
-    display: none;
-    opacity: 0;
-  }
   .window.call_w {
     width: 100%;
     margin-top: 20%;
@@ -2691,7 +2676,7 @@ a:hover {
   }
   .close-btn {
     top: -21px;
-    right: -5px;
+    right: -10px;
     border-radius: 0px;
     box-shadow: none;
   }
