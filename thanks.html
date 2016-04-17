@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Apr 01 2016 09:54:29 GMT+0000 (UTC) -->
+<!-- Last Published: Sun Apr 17 2016 20:58:37 GMT+0000 (UTC) -->
 <html data-wf-site="56aceaac9ecfb41e0b5ee7fc" data-wf-page="56aceaad9ecfb41e0b5ee801" data-wf-status='1'>
 
 <head>
@@ -50,6 +50,7 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+<?php if(file_exists('head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php')){ include_once 'head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
 <?php if(file_exists('head_code.php')){ include_once 'head_code.php'; } ?></head>
 
 <body class="body">
@@ -60,7 +61,7 @@
           <a href="/" class="w-inline-block logo-block">
             <img width="220" src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56fd909cf981a22950281bd6_logo2a.svg">
             <div class="logo-description">Центр по быстрому
-              <span class="blue">открытию виз</span>в Минске</div>
+              <span class="blue">открытию виз</span>в &nbsp;Минске</div>
           </a>
         </div>
         <div class="w-col w-col-4">
@@ -74,7 +75,7 @@
         <div class="w-col w-col-4">
           <div class="tel-block">
             <a href="tel:+375296855556" class="tel">
-              <span class="min-tel">8 (029)</span>685-25-50</a>
+              <span class="min-tel">8 (029) &nbsp;</span>685-25-50</a>
             <a href="viber:+375296855556" data-ix="show-viber" class="w-inline-block viberl-ink">
               <img src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56aceaad9ecfb41e0b5ee813_unnamed.png">
               <div class="viber-wrapper">
@@ -92,7 +93,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header header_call">Отправьте заявку и мы перезвоним вам в течение 5 минут</h3>
                   <div class="w-form">
-                    <form id="form-top1" name="wf-form-" data-name="Обратный звонок" data-redirect="/thanks" class="form-size">
+                    <form id="form-top1" name="wf-form-" data-name="Обратный звонок" data-redirect="/thanks.html" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
                       <input type="submit" value="Отправить заявку" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn call_back">
@@ -160,6 +161,8 @@
   <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
 <script type="text/javascript" src="/mail.js"></script>
-<script type="text/javascript">$(document).ready(function(){$('[href="http://webflow.com?utm_campaign=brandjs"]').css({'display':'none'});});</script><?php if(file_exists('footer_code.php')){ include_once 'footer_code.php'; } ?></body>
+<script type="text/javascript">$(document).ready(function(){$('[href="http://webflow.com?utm_campaign=brandjs"]').css({'display':'none'});});</script>
+<?php if(file_exists('footer_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php')){ include_once 'footer_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
+<?php if(file_exists('footer_code.php')){ include_once 'footer_code.php'; } ?></body>
 
 </html>

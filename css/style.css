@@ -361,16 +361,49 @@ a:hover {
 
 .card-img {
   position: relative;
-  width: 100%;
+  width: 24.25%;
+  margin-bottom: 50px;
   padding-bottom: 30px;
   border: 1px solid #e6e6e6;
   background-color: #fff;
   text-align: center;
 }
 
+.card-img.hote {
+  margin-right: 1%;
+}
+
+.card-img.card-5 {
+  margin-right: 1%;
+}
+
+.card-img.card-6 {
+  margin-right: 1%;
+}
+
+.card-img.card-7 {
+  margin-right: 1%;
+}
+
+.card-img.card-9 {
+  margin-right: 1%;
+}
+
+.card-img.card-10 {
+  margin-right: 1%;
+}
+
+.card-img.card-11 {
+  margin-right: 1%;
+}
+
 .imgcity {
   -webkit-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;
+}
+
+.imgcity.america-city {
+  display: inline-block;
 }
 
 .flag {
@@ -392,7 +425,6 @@ a:hover {
 }
 
 .img-city-wrapper {
-  display: inline-block;
   overflow: hidden;
   color: transparent;
   text-align: center;
@@ -1453,6 +1485,10 @@ a:hover {
   border-bottom-color: #fff;
 }
 
+.arrow_up.block-ar.americ-ar {
+  top: -12px;
+}
+
 .soc-col1 {
   padding: 20px;
   text-align: right;
@@ -1466,6 +1502,14 @@ a:hover {
 .soc-col2 {
   padding: 20px;
   text-align: left;
+}
+
+.flex-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 991px) {
@@ -1549,14 +1593,38 @@ a:hover {
   }
   .card-img {
     display: block;
-    width: 100%;
+    width: 49%;
     height: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    margin-left: auto;
   }
   .card-img.hote {
-    margin-bottom: 60px;
+    width: 49%;
+  }
+  .card-img.hote.card-2 {
+    margin-right: 0%;
+  }
+  .card-img.hote.card-1 {
+    margin-right: 2%;
+  }
+  .card-img.hote.card-3 {
+    margin-right: 2%;
+  }
+  .card-img.card-5 {
+    margin-right: 2%;
+  }
+  .card-img.card-6 {
+    margin-right: 0%;
+  }
+  .card-img.card-7 {
+    margin-right: 2%;
+  }
+  .card-img.card-9 {
+    margin-right: 2%;
+  }
+  .card-img.card-10 {
+    margin-right: 0%;
+  }
+  .card-img.card-11 {
+    margin-right: 2%;
   }
   .row-city {
     margin-bottom: 30px;
@@ -1683,6 +1751,7 @@ a:hover {
     padding-top: 20px;
   }
   .hot {
+    display: inline;
     width: 59%;
   }
   .hot-text {
@@ -2346,8 +2415,34 @@ a:hover {
     padding-top: 0px;
     padding-bottom: 10px;
   }
+  .card-img {
+    width: 100%;
+  }
   .card-img.hote {
     padding-bottom: 20px;
+  }
+  .card-img.hote.card-2 {
+    width: 100%;
+  }
+  .card-img.hote.card-1 {
+    width: 100%;
+    margin-right: 0%;
+  }
+  .card-img.hote.card-3 {
+    width: 100%;
+    margin-right: 0%;
+  }
+  .card-img.card-5 {
+    margin-right: 0%;
+  }
+  .card-img.card-7 {
+    margin-right: 0%;
+  }
+  .card-img.card-9 {
+    margin-right: 0%;
+  }
+  .card-img.card-11 {
+    margin-right: 0%;
   }
   .checks {
     padding-top: 10px;

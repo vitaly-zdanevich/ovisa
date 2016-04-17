@@ -15,9 +15,9 @@ $(function() {
         cur_id = '#'+$(this).attr('id');
         if($(cur_id).attr('data-hide') !== undefined){ hide = parseInt($(cur_id).attr('data-hide')); }
         if($(cur_id).attr('data-delay') !== undefined){ delay = parseInt($(cur_id).attr('data-delay')); }
-        cur_success = $(cur_id).siblings('.w-form-done').text(); if(cur_success !== 'Thank you! Your submission has been received!'){ success_msg = cur_success; }
-        cur_error = $(cur_id).siblings('.w-form-fail').text(); if(cur_error !== 'Oops! Something went wrong while submitting the form'){ error_msg = cur_error; }
-        cur_wait = $(cur_id).find('[data-wait]').attr('data-wait'); if(cur_wait !== 'Please wait...'){ wait_msg = cur_wait; }
+        cur_success = $(cur_id).siblings('.w-form-done').text(); if(cur_success.trim() !== 'Thank you! Your submission has been received!'){ success_msg = cur_success; }
+        cur_error = $(cur_id).siblings('.w-form-fail').text(); if(cur_error.trim() !== 'Oops! Something went wrong while submitting the form'){ error_msg = cur_error; }
+        cur_wait = $(cur_id).find('[data-wait]').attr('data-wait'); if(cur_wait.trim() !== 'Please wait...'){ wait_msg = cur_wait; }
         cur_redirect = $(cur_id).attr('data-redirect'); if(cur_redirect !== undefined){ redirect = cur_redirect; }
         cur_action = $(cur_id).attr('action'); if(cur_action !== '/'){ action = cur_action; }
         submit_div = $(cur_id).find('[type = submit]');

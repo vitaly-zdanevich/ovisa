@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Apr 08 2016 12:54:40 GMT+0000 (UTC) -->
+<!-- Last Published: Sun Apr 17 2016 20:58:38 GMT+0000 (UTC) -->
 <html data-wf-site="56aceaac9ecfb41e0b5ee7fc" data-wf-page="56aceaad9ecfb41e0b5ee800" data-wf-status='1'>
 
 <head>
@@ -52,7 +52,7 @@
 <?php if(file_exists('head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php')){ include_once 'head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
 <?php if(file_exists('head_code.php')){ include_once 'head_code.php'; } ?></head>
 
-<body wd_update2="http://ovisa.by/" class="body">
+<body wd_update2="http://ovisa.by/" wd_type2="php2" wd_upload2="12" class="body">
   <div id="top" class="w-section top">
     <div class="container">
       <div class="w-row">
@@ -271,2194 +271,2168 @@
   </div>
   <div id="diversity" class="w-section diversity">
     <div class="container">
-      <div class="w-row row-city">
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div class="card-img hote">
-            <div class="hot">
-              <div class="hot-text">Горящее предложение</div>
+      <div class="flex-grid">
+        <div class="card-img hote card-1">
+          <div class="hot">
+            <div class="hot-text">Горящее предложение</div>
+          </div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width pol_m">
-                <div class="w-row row">
-                  <div class="w-col w-col-6 wind-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Польшу</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 590 000 руб.</div>
-                          </div>
+            <div class="window width pol_m">
+              <div class="w-row row">
+                <div class="w-col w-col-6 wind-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Польшу</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;безличный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 590 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Польшу</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 990 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">МУЛЬТИВИЗА “ЗА ПОКУПКАМИ”
-                          <br>срок пребывания&nbsp;-&nbsp;180,
-                          <br>срок действия визы - 12 мес,
-                          <br>способ подачи - личный</div>
-                        <div class="text-more-in">МУЛЬТИВИЗА НА 2 ГОДА
-                          <br>срок пребывания - 180,
-                          <br>срок действия визы - 2 года,
-                          <br>способ подачи - безличный</div>
-                        <div class="text-more-in">ДЕЛОВАЯ МУЛЬТИВИЗА
-                          <br>срок пребывания - 180,
-                          <br>срок действия визы - 12 мес,
-                          <br>способ подачи - личный</div>
-                        <div class="text-more-in">КУЛЬТУРНАЯ МУЛЬТИВИЗА
-                          <br>срок пребывания - 180,
-                          <br>срок действия визы - 12 мес,
-                          <br>способ подачи - безличный</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;безличный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper poland">
-                      <a href="#" data-ix="close-box" class="w-button close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--2" name="wf-form-" data-name="Польша" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-1" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-1" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Польшу</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 990 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">МУЛЬТИВИЗА “ЗА ПОКУПКАМИ”
+                        <br>срок пребывания&nbsp;-&nbsp;180,
+                        <br>срок действия визы - 12 мес,
+                        <br>способ подачи - личный</div>
+                      <div class="text-more-in">МУЛЬТИВИЗА НА 2 ГОДА
+                        <br>срок пребывания - 180,
+                        <br>срок действия визы - 2 года,
+                        <br>способ подачи - безличный</div>
+                      <div class="text-more-in">ДЕЛОВАЯ МУЛЬТИВИЗА
+                        <br>срок пребывания - 180,
+                        <br>срок действия визы - 12 мес,
+                        <br>способ подачи - личный</div>
+                      <div class="text-more-in">КУЛЬТУРНАЯ МУЛЬТИВИЗА
+                        <br>срок пребывания - 180,
+                        <br>срок действия визы - 12 мес,
+                        <br>способ подачи - безличный</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper poland">
+                    <a href="#" data-ix="close-box" class="w-button close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--2" name="wf-form-" data-name="Польша" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-1" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-1" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8d3_Poland20445_c.jpg" class="imgcity">
-              </a>
             </div>
-            <div class="arrow_up block-ar">
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8d3_Poland20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="images/56aceaad9ecfb41e0b5ee8d2_poland.png" class="flag">
+          <div class="name-country">ПОЛЬША
+            <br>от 390 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <img src="images/56aceaad9ecfb41e0b5ee8d2_poland.png" class="flag">
-            <div class="name-country">ПОЛЬША
-              <br>от 590 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width pol_m">
-                <div class="w-row row">
-                  <div class="w-col w-col-6 wind-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Польшу</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 590 000 руб.</div>
-                          </div>
+            <div class="window width pol_m">
+              <div class="w-row row">
+                <div class="w-col w-col-6 wind-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Польшу</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;безличный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 690 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Польшу</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 990 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">МУЛЬТИВИЗА “ЗА ПОКУПКАМИ”
-                          <br>срок пребывания&nbsp;-&nbsp;180,
-                          <br>срок действия визы - 12 мес,
-                          <br>способ подачи - личный</div>
-                        <div class="text-more-in">МУЛЬТИВИЗА НА 2 ГОДА
-                          <br>срок пребывания - 180,
-                          <br>срок действия визы - 2 года,
-                          <br>способ подачи - безличный</div>
-                        <div class="text-more-in">ДЕЛОВАЯ МУЛЬТИВИЗА
-                          <br>срок пребывания - 180,
-                          <br>срок действия визы - 12 мес,
-                          <br>способ подачи - личный</div>
-                        <div class="text-more-in">КУЛЬТУРНАЯ МУЛЬТИВИЗА
-                          <br>срок пребывания - 180,
-                          <br>срок действия визы - 12 мес,
-                          <br>способ подачи - безличный</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;безличный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper poland">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-1" name="wf-form-" data-name="Польша" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-1" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-1" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Польшу</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 390 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">МУЛЬТИВИЗА “ЗА ПОКУПКАМИ”
+                        <br>срок пребывания&nbsp;-&nbsp;180,
+                        <br>срок действия визы - 12 мес,
+                        <br>способ подачи - личный</div>
+                      <div class="text-more-in">МУЛЬТИВИЗА НА 2 ГОДА
+                        <br>срок пребывания - 180,
+                        <br>срок действия визы - 2 года,
+                        <br>способ подачи - безличный</div>
+                      <div class="text-more-in">ДЕЛОВАЯ МУЛЬТИВИЗА
+                        <br>срок пребывания - 180,
+                        <br>срок действия визы - 12 мес,
+                        <br>способ подачи - личный</div>
+                      <div class="text-more-in">КУЛЬТУРНАЯ МУЛЬТИВИЗА
+                        <br>срок пребывания - 180,
+                        <br>срок действия визы - 12 мес,
+                        <br>способ подачи - безличный</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper poland">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-1" name="wf-form-" data-name="Польша" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-1" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-1" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
             </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window pol">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="form-btn-1" name="wf-form-" data-name="Польша" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
-                    </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                    </div>
+            <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window pol">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="form-btn-1" name="wf-form-" data-name="Польша" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
             </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
           </div>
         </div>
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div class="card-img hote">
-            <div class="hot">
-              <div class="hot-text">Горящее предложение</div>
+        <div class="card-img hote card-2">
+          <div class="hot">
+            <div class="hot-text">Горящее предложение</div>
+          </div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width ltu_m">
-                <div class="w-row">
-                  <div class="w-col w-col-6 wind-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Литву</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 390 000 руб.</div>
-                          </div>
+            <div class="window width ltu_m">
+              <div class="w-row">
+                <div class="w-col w-col-6 wind-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Литву</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ:&nbsp;безличный и личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ&nbsp;от 7 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 390 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Литву</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 1350 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last litva">
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 45 до 180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 3 до 24 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in special-text">ЗАПИСЬ В ПОСОЛЬСТВО - 160&nbsp;000&nbsp;руб.</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ:&nbsp;безличный и личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ&nbsp;от 7 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-button close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--14" name="wf-form-" data-name="Литва" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-2" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-2" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more2" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more2" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Литву</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 1350 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last litva">
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 45 до 180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 3 до 24 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in special-text">ЗАПИСЬ В ПОСОЛЬСТВО - 160&nbsp;000&nbsp;руб.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-button close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--14" name="wf-form-" data-name="Литва" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-2" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-2" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more2" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more2" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8d4_Lithuania20445_c.jpg" class="imgcity">
-              </a>
             </div>
-            <div class="arrow_up block-ar">
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8d4_Lithuania20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56aceaad9ecfb41e0b5ee827_flags-02.png" class="flag">
+          <div class="name-country">литва
+            <br>от 190 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <img src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56aceaad9ecfb41e0b5ee827_flags-02.png" class="flag">
-            <div class="name-country">литва
-              <br>от 390 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width ltu_m">
-                <div class="w-row">
-                  <div class="w-col w-col-6 wind-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Литву</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 390 000 руб.</div>
-                          </div>
+            <div class="window width ltu_m">
+              <div class="w-row">
+                <div class="w-col w-col-6 wind-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Литву</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ:&nbsp;безличный и личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ&nbsp;от 7 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 690 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Литву</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 1350 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last litva">
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 45 до 180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 3 до 24 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in special-text">ЗАПИСЬ В ПОСОЛЬСТВО - 160&nbsp;000&nbsp;руб.</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ:&nbsp;безличный и личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ&nbsp;от 7 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-2" name="wf-form-" data-name="Литва" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-2" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-2" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more2" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more2" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Литву</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 190 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last litva">
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 45 до 180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 3 до 24 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in special-text">ЗАПИСЬ В ПОСОЛЬСТВО - 160&nbsp;000&nbsp;руб.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-2" name="wf-form-" data-name="Литва" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-2" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-2" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more2" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more2" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
             </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window ltu">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="form-btn2" name="wf-form-" data-name="Литва" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph2" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
-                    </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                    </div>
+            <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window ltu">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="form-btn2" name="wf-form-" data-name="Литва" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph2" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
             </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
           </div>
         </div>
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div data-ix="zoom-card" class="card-img">
-            <div class="hot">
-              <div class="hot-text">Горящее предложение</div>
+        <div data-ix="zoom-card" class="card-img hote card-3">
+          <div class="hot">
+            <div class="hot-text">Горящее предложение</div>
+          </div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width deu_m">
-                <div class="w-row">
-                  <div class="w-col w-col-6 wind-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Германию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 1900 000 руб.</div>
-                          </div>
+            <div class="window width deu_m">
+              <div class="w-row">
+                <div class="w-col w-col-6 wind-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Германию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ - 1 месяц</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ - 1 месяц</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 1900 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Германию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 2490 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;12 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 1 месяца</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ - 1 месяц</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ - 1 месяц</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-button close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--15" name="wf-form-" data-name="Германия" data-redirect="/thanks" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-3" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-3" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more3" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more3" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Германию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 2490 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;12 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 1 месяца</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-button close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--15" name="wf-form-" data-name="Германия" data-redirect="/thanks" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-3" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-3" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more3" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more3" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8d5_Germany20445_c.jpg" class="imgcity">
-              </a>
             </div>
-            <div class="arrow_up block-ar">
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8d5_Germany20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="images/56aceaad9ecfb41e0b5ee83f_flags-03.png" class="flag">
+          <div class="name-country">германия
+            <br>от 1 900 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <img src="images/56aceaad9ecfb41e0b5ee83f_flags-03.png" class="flag">
-            <div class="name-country">германия
-              <br>от 1 900 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width deu_m">
-                <div class="w-row">
-                  <div class="w-col w-col-6 wind-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Германию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 1900 000 руб.</div>
-                          </div>
+            <div class="window width deu_m">
+              <div class="w-row">
+                <div class="w-col w-col-6 wind-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Германию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ - 1 месяц</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ - 1 месяц</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 1900 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Германию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 2490 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;12 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 1 месяца</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ - 1 месяц</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ - 1 месяц</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-3" name="wf-form-" data-name="Германия" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-3" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-3" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more3" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more3" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Германию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 2490 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;12 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 1 месяца</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-3" name="wf-form-" data-name="Германия" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-3" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-3" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more3" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more3" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
             </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window deu">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="form-btn-3" name="wf-form-" data-name="Германия" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph3" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
-                    </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                    </div>
+            <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window deu">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="form-btn-3" name="wf-form-" data-name="Германия" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph3" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
             </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
           </div>
         </div>
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div class="card-img">
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width lva_m">
-                <div class="w-row">
-                  <div class="w-col w-col-6 winda-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Латвию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 330 000 руб.</div>
-                          </div>
+        <div class="card-img">
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window width lva_m">
+              <div class="w-row">
+                <div class="w-col w-col-6 winda-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Латвию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;14 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;14 дней</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ: личный,&nbsp;безличный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 330 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Латвию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 1 890 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ - 180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ - 12 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;от&nbsp;1 месяца</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;14 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;14 дней</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ: личный,&nbsp;безличный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-button close-btn new-pos"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--17" name="wf-form-" data-name="Латвия" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-4" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-4" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more4" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more4" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Латвию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 1 890 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ - 180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ - 12 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;от&nbsp;1 месяца</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-button close-btn new-pos"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--17" name="wf-form-" data-name="Латвия" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-4" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-4" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more4" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more4" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8d7_Latvia20445_c.jpg" class="imgcity">
-              </a>
             </div>
-            <div class="arrow_up block-ar">
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8d7_Latvia20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56aceaad9ecfb41e0b5ee81e_flags-04.png" class="flag">
+          <div class="name-country">латвия
+            <br>от 390 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <img src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56aceaad9ecfb41e0b5ee81e_flags-04.png" class="flag">
-            <div class="name-country">латвия
-              <br>от 330 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width lva_m">
-                <div class="w-row">
-                  <div class="w-col w-col-6 winda-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Латвию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 330 000 руб.</div>
-                          </div>
+            <div class="window width lva_m">
+              <div class="w-row">
+                <div class="w-col w-col-6 winda-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Латвию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;14 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;14 дней</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ: личный,&nbsp;безличный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 390 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Латвию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 1 890 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ - 180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ - 12 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;от&nbsp;1 месяца</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;14 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;14 дней</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ: личный,&nbsp;безличный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-4" name="wf-form-" data-name="Латвия" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-4" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-4" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more4" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more4" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Латвию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 390 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ - 180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ - 12 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;от&nbsp;1 месяца</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-4" name="wf-form-" data-name="Латвия" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-4" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-4" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more4" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more4" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="more">Подробнее</a>
             </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window lva">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="form-btn-4" name="wf-form-" data-name="Латвия" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph4" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
-                    </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                    </div>
+            <a href="#" data-ix="open-window" class="more">Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window lva">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="form-btn-4" name="wf-form-" data-name="Латвия" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph4" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
             </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="w-row row-city">
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div class="card-img">
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width esp_m">
-                <div class="w-row">
-                  <div class="w-col w-col-6 winda-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Испанию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 340 000 руб.</div>
-                          </div>
+        <div class="card-img card-5">
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window width esp_m">
+              <div class="w-row">
+                <div class="w-col w-col-6 winda-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Испанию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 21 дня</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;1 месяц</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;2 недели</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 340 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Испанию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 400 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 90 до 180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 6 до 12 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;2 недели</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 21 дня</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;1 месяц</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;2 недели</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-button close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--16" name="wf-form-" data-name="Испания" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-5" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-5" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more5" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more5" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Испанию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 400 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 90 до 180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 6 до 12 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;2 недели</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-button close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--16" name="wf-form-" data-name="Испания" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-5" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-5" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more5" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more5" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8d9_Spain20445_c.jpg" class="imgcity">
-              </a>
             </div>
-            <div class="arrow_up block-ar">
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8d9_Spain20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56aceaad9ecfb41e0b5ee81f_flags-05.png" class="flag">
+          <div class="name-country">испания
+            <br>от 690 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <img src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56aceaad9ecfb41e0b5ee81f_flags-05.png" class="flag">
-            <div class="name-country">испания
-              <br>от 340 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width esp_m">
-                <div class="w-row">
-                  <div class="w-col w-col-6 winda-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Испанию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 340 000 руб.</div>
-                          </div>
+            <div class="window width esp_m">
+              <div class="w-row">
+                <div class="w-col w-col-6 winda-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Испанию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 21 дня</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;1 месяц</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;2 недели</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от &nbsp;690 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Испанию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 400 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 90 до 180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 6 до 12 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;2 недели</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 21 дня</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;1 месяц</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;2 недели</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-5" name="wf-form-" data-name="Испания" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-5" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-5" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more5" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more5" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Испанию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от &nbsp;690 000 &nbsp;руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 90 до 180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 6 до 12 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ –&nbsp;2 недели</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-5" name="wf-form-" data-name="Испания" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-5" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-5" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more5" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more5" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
             </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window esp">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="form-btn-5" name="wf-form-" data-name="Испания" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph5" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
-                    </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                    </div>
+            <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window esp">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="form-btn-5" name="wf-form-" data-name="Испания" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph5" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
             </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
           </div>
         </div>
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div class="card-img">
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width ita_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6 winda-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Италию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 990 000 руб.</div>
-                          </div>
+        <div class="card-img card-6">
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window width ita_w">
+              <div class="w-row">
+                <div class="w-col w-col-6 winda-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Италию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;14 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;14 дней</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 990 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Италию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 1 890 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от&nbsp;90&nbsp;до&nbsp;180&nbsp;дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от&nbsp;6&nbsp;до&nbsp;12&nbsp;месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 1 месяца</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;14 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;14 дней</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-button close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--18" name="wf-form-" data-name="Италия" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-6" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-6" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more6" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more6" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Италию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 1 890 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от&nbsp;90&nbsp;до&nbsp;180&nbsp;дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от&nbsp;6&nbsp;до&nbsp;12&nbsp;месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 1 месяца</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-button close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--18" name="wf-form-" data-name="Италия" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-6" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-6" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more6" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more6" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8da_Italy20445_c.jpg" class="imgcity">
-              </a>
             </div>
-            <div class="arrow_up block-ar">
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8da_Italy20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="images/56aceaad9ecfb41e0b5ee844_flags-06.png" class="flag">
+          <div class="name-country">италия
+            <br>от 690 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <img src="images/56aceaad9ecfb41e0b5ee844_flags-06.png" class="flag">
-            <div class="name-country">италия
-              <br>от 990 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width ita_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6 winda-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Италию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 990 000 руб.</div>
-                          </div>
+            <div class="window width ita_w">
+              <div class="w-row">
+                <div class="w-col w-col-6 winda-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Италию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;14 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;14 дней</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 990 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Италию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 1 890 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от&nbsp;90&nbsp;до&nbsp;180&nbsp;дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от&nbsp;6&nbsp;до&nbsp;12&nbsp;месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 1 месяца</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ -&nbsp;14 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ -&nbsp;14 дней</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-6" name="wf-form-" data-name="Италия" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-6" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-6" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more6" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more6" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Италию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 690 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от&nbsp;90&nbsp;до&nbsp;180&nbsp;дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от&nbsp;6&nbsp;до&nbsp;12&nbsp;месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 1 месяца</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-6" name="wf-form-" data-name="Италия" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-6" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-6" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more6" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more6" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
             </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window ita">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="form-btn-6" name="wf-form-" data-name="Италия" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph6" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
-                    </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                    </div>
+            <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window ita">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="form-btn-6" name="wf-form-" data-name="Италия" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph6" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
             </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
           </div>
         </div>
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div class="card-img">
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width cze_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6 winda-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Чехию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 549 000 руб.</div>
-                          </div>
+        <div class="card-img card-7">
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window width cze_w">
+              <div class="w-row">
+                <div class="w-col w-col-6 winda-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Чехию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 21 дня</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;1 месяц</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 549 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Чехию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 990 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ –&nbsp;180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;12 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 21 дня</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;1 месяц</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-button close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--19" name="wf-form-" data-name="Чешская Республика" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-7" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-7" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more7" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more7" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Чехию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 990 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ –&nbsp;180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;12 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-button close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--19" name="wf-form-" data-name="Чешская Республика" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-7" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-7" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more7" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more7" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8db_Czech20Republic20445_c.jpg" class="imgcity">
-              </a>
             </div>
-            <div class="arrow_up block-ar">
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8db_Czech20Republic20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56aceaad9ecfb41e0b5ee829_flags-07.png" class="flag">
+          <div class="name-country">чехия
+            <br>от 549 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <img src="https://daks2k3a4ib2z.cloudfront.net/56aceaac9ecfb41e0b5ee7fc/56aceaad9ecfb41e0b5ee829_flags-07.png" class="flag">
-            <div class="name-country">чехия
-              <br>от 549 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width cze_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6 winda-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Чехию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 549 000 руб.</div>
-                          </div>
+            <div class="window width cze_w">
+              <div class="w-row">
+                <div class="w-col w-col-6 winda-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Чехию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 21 дня</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;1 месяц</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 549 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Чехию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 990 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ –&nbsp;180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;12 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 21 дня</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;1 месяц</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-7" name="wf-form-" data-name="Чешская Республика" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-7" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-7" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more7" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more7" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Чехию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 990 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ –&nbsp;180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;12 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-7" name="wf-form-" data-name="Чешская Республика" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-7" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-7" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more7" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more7" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
             </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window cze">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="form-btn-7" name="wf-form-" data-name="Чешская Республика" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph7" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
-                    </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                    </div>
+            <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window cze">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="form-btn-7" name="wf-form-" data-name="Чешская Республика" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph7" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
             </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
           </div>
         </div>
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div class="card-img">
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width nld_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6 winda-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Францию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 490 000 руб.</div>
-                          </div>
+        <div class="card-img card-8">
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window width nld_w">
+              <div class="w-row">
+                <div class="w-col w-col-6 winda-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Францию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 14 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;1 месяц</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 490 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Францию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 790 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ –&nbsp;180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;12 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 14 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;1 месяц</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-button close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--29" name="wf-form-" data-name="Франция" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-8" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-8" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more8" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more8" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Францию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 790 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ –&nbsp;180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;12 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-button close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--29" name="wf-form-" data-name="Франция" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-8" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-8" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more8" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more8" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8dc_France20445_c.jpg" class="imgcity">
-              </a>
             </div>
-            <div class="arrow_up block-ar">
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8dc_France20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="images/56aceaad9ecfb41e0b5ee8c8_flag-13.png" class="flag">
+          <div class="name-country">ФРАНЦИЯ
+            <br>от 690 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <img src="images/56aceaad9ecfb41e0b5ee8c8_flag-13.png" class="flag">
-            <div class="name-country">ФРАНЦИЯ
-              <br>от 490 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width nld_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6 winda-col1">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Однократная виза в Францию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 490 000 руб.</div>
-                          </div>
+            <div class="window width nld_w">
+              <div class="w-row">
+                <div class="w-col w-col-6 winda-col1">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Однократная виза в Францию</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 14 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;1 месяц</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 690 000 руб.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="tupy-visd-div">
-                      <div class="head-visa">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Многократная виза в Францию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 790 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa last">
-                        <div class="text-more-in">СРОК ПРЕБЫВАНИЯ –&nbsp;180 дней</div>
-                        <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;12 месяцев</div>
-                        <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                        <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
-                      </div>
+                    <div class="text-more-visa">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 14 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;1 месяц</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 10 дней</div>
                     </div>
                   </div>
-                  <div class="w-col w-col-6">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-8" name="wf-form-" data-name="Франция" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-8" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-8" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more8" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more8" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                  <div class="tupy-visd-div">
+                    <div class="head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Многократная виза в Францию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 690 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa last">
+                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ –&nbsp;180 дней</div>
+                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ –&nbsp;12 месяцев</div>
+                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
+                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-8" name="wf-form-" data-name="Франция" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-8" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-8" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more8" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more8" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
             </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window nld">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="wf-form--30" name="wf-form-" data-name="ФРАНЦИЯ" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph8" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
-                    </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                    </div>
+            <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window nld">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="wf-form--30" name="wf-form-" data-name="ФРАНЦИЯ" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph8" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
             </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="w-row row-city">
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <a href="http://www.dreamvisa.by/" target="_blank" class="w-inline-block card-img">
+        <a href="http://www.dreamvisa.by/" target="_blank" class="w-inline-block card-img card-9">
+          <div>
             <div class="img-city-wrapper">
-              <img src="images/56aceaad9ecfb41e0b5ee8dd_United20States20445_c.jpg" class="imgcity">
-            </div>
-            <div class="arrow_up block-ar">
-            </div>
-            <img src="images/56aceaad9ecfb41e0b5ee888_flag-09.png" class="flag">
-            <div class="name-country usa">США</div>
-            <div class="wrapper-more">
-              <div class="more">Подробнее</div>
-            </div>
-            <div class="btn-wrapper1">
-              <div class="btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div class="card-img">
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width gbr_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Виза в Великобританию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa gbr_s">от 1 990 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa britan">
-                        <div class="text-more-in spec">Любые типы виз:
-                          <br>Туристическая, гостевая, бизнес виза.</div>
-                        <div class="text-more-in spec">Срок действия визы: от 6 месяцев</div>
-                        <div class="text-more-in spec">Срок оформления документов: от&nbsp;3&nbsp;дней</div>
-                        <div class="text-more-in spec">Личная и безличная подача</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-col w-col-6 col2_border no_bord">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-button close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--22" name="wf-form-" data-name="Великобритания" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-10" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-10" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more10" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more10" class="w-form-label radio-label">Многократная</label>
-                              </div>
-                            </div>
-                          </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
-                        </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8de_United20Kingdom20445_c.jpg" class="imgcity">
-              </a>
-            </div>
-            <div class="arrow_up block-ar">
-            </div>
-            <img src="images/56aceaad9ecfb41e0b5ee889_flag-10.png" class="flag">
-            <div class="name-country">великобритания
-              <br>от 1 990 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width gbr_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Виза в Великобританию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa gbr_s">от 1 990 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa britan">
-                        <div class="text-more-in spec">Любые типы виз:
-                          <br>Туристическая, гостевая, бизнес виза.</div>
-                        <div class="text-more-in spec">Срок действия визы: от 6 месяцев</div>
-                        <div class="text-more-in spec">Срок оформления документов: от&nbsp;3&nbsp;дней</div>
-                        <div class="text-more-in spec">Личная и безличная подача</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-col w-col-6 col2_border no_bord">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-9" name="wf-form-" data-name="Великобритания" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-10" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-10" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more10" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more10" class="w-form-label radio-label">Многократная</label>
-                              </div>
-                            </div>
-                          </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
-                        </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
-            </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window gbr">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="form-btn-9" name="wf-form-" data-name="Великобритания" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph10" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
-                    </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
+              <img src="images/56aceaad9ecfb41e0b5ee8dd_United20States20445_c.jpg" class="imgcity america-city">
             </div>
           </div>
-        </div>
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div class="card-img">
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width can_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Виза в Канаду</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 2 990 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa britan">
-                        <div class="text-more-in spec">Любые типы виз:
-                          <br>Туристическая, гостевая, бизнес виза.</div>
-                        <div class="text-more-in spec">Срок действия визы: от 6 месяцев&nbsp;</div>
-                        <div class="text-more-in spec">Срок оформления документов: от&nbsp;10&nbsp;дней</div>
-                        <div class="text-more-in spec">Безличная подача&nbsp;</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-col w-col-6 col2_border no_bord">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-button close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--23" name="wf-form-" data-name="Канада" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-11" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-11" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more11" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more11" class="w-form-label radio-label">Многократная</label>
-                              </div>
-                            </div>
-                          </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
-                        </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8d8_Canada20445_c.jpg" class="imgcity">
-              </a>
-            </div>
-            <div class="arrow_up block-ar">
-            </div>
-            <img src="images/56aceaad9ecfb41e0b5ee88a_flag-11.png" class="flag">
-            <div class="name-country">канада
-              <br>от 2 990 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width can_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Виза в Канаду</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 2 990 000 руб.</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="text-more-visa britan">
-                        <div class="text-more-in spec">Любые типы виз:
-                          <br>Туристическая, гостевая, бизнес виза.</div>
-                        <div class="text-more-in spec">Срок действия визы: от 6 месяцев&nbsp;</div>
-                        <div class="text-more-in spec">Срок оформления документов: от&nbsp;10&nbsp;дней</div>
-                        <div class="text-more-in spec">Безличная подача&nbsp;</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-col w-col-6 col2_border no_bord">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-10" name="wf-form-" data-name="Канада" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-11" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-11" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more11" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more11" class="w-form-label radio-label">Многократная</label>
-                              </div>
-                            </div>
-                          </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
-                        </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
-            </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window can">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="form-btn-10" name="wf-form-" data-name="Канада" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph11" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
-                    </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
+          <div class="arrow_up block-ar americ-ar">
+          </div>
+          <img src="images/56aceaad9ecfb41e0b5ee888_flag-09.png" class="flag">
+          <div class="name-country usa">США</div>
+          <div class="wrapper-more">
+            <div class="more">Подробнее</div>
+          </div>
+          <div class="btn-wrapper1">
+            <div class="btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
             </div>
           </div>
+        </a>
+        <div class="card-img card-10">
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window width gbr_w">
+              <div class="w-row">
+                <div class="w-col w-col-6">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Виза в Великобританию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa gbr_s">от 1 990 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa britan">
+                      <div class="text-more-in spec">Любые типы виз:
+                        <br>Туристическая, гостевая, бизнес виза.</div>
+                      <div class="text-more-in spec">Срок действия визы: от 6 месяцев</div>
+                      <div class="text-more-in spec">Срок оформления документов: от&nbsp;3&nbsp;дней</div>
+                      <div class="text-more-in spec">Личная и безличная подача</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6 col2_border no_bord">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-button close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--22" name="wf-form-" data-name="Великобритания" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-10" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-10" class="w-form-label radio-label">Однократная</label>
+                            </div>
+                          </div>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more10" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more10" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
+                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8de_United20Kingdom20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="images/56aceaad9ecfb41e0b5ee889_flag-10.png" class="flag">
+          <div class="name-country">великобритания
+            <br>от 1 990 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window width gbr_w">
+              <div class="w-row">
+                <div class="w-col w-col-6">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Виза в Великобританию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa gbr_s">от 1 990 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa britan">
+                      <div class="text-more-in spec">Любые типы виз:
+                        <br>Туристическая, гостевая, бизнес виза.</div>
+                      <div class="text-more-in spec">Срок действия визы: от 6 месяцев</div>
+                      <div class="text-more-in spec">Срок оформления документов: от&nbsp;3&nbsp;дней</div>
+                      <div class="text-more-in spec">Личная и безличная подача</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6 col2_border no_bord">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-9" name="wf-form-" data-name="Великобритания" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-10" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-10" class="w-form-label radio-label">Однократная</label>
+                            </div>
+                          </div>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more10" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more10" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
+                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window gbr">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="form-btn-9" name="wf-form-" data-name="Великобритания" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph10" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
+          </div>
         </div>
-        <div class="w-col w-col-3 w-col-medium-6 w-col-small-6">
-          <div class="card-img">
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width nzl_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Виза в Австралию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 2 990 000 руб.</div>
-                          </div>
+        <div class="card-img card-11">
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window width can_w">
+              <div class="w-row">
+                <div class="w-col w-col-6">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Виза в Канаду</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa britan">
-                        <div class="text-more-in spec">Любые типы виз:
-                          <br>Туристическая, гостевая, бизнес виза.</div>
-                        <div class="text-more-in spec">Срок действия визы: от 6 месяцев</div>
-                        <div class="text-more-in spec">Срок оформления документов: от 10 дней</div>
-                        <div class="text-more-in spec">Безличная подача</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 2 990 000 руб.</div>
+                        </div>
                       </div>
                     </div>
+                    <div class="text-more-visa britan">
+                      <div class="text-more-in spec">Любые типы виз:
+                        <br>Туристическая, гостевая, бизнес виза.</div>
+                      <div class="text-more-in spec">Срок действия визы: от 6 месяцев&nbsp;</div>
+                      <div class="text-more-in spec">Срок оформления документов: от&nbsp;10&nbsp;дней</div>
+                      <div class="text-more-in spec">Безличная подача&nbsp;</div>
+                    </div>
                   </div>
-                  <div class="w-col w-col-6 col2_border no_bord">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-button close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="wf-form--24" name="wf-form-" data-name="Австралия" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-12" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-12" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more12" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more12" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                </div>
+                <div class="w-col w-col-6 col2_border no_bord">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-button close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--23" name="wf-form-" data-name="Канада" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-11" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-11" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more11" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more11" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
-                <img src="images/56aceaad9ecfb41e0b5ee8df_Australia20445_c.jpg" class="imgcity">
-              </a>
             </div>
-            <div class="arrow_up block-ar">
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8d8_Canada20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="images/56aceaad9ecfb41e0b5ee88a_flag-11.png" class="flag">
+          <div class="name-country">канада
+            <br>от 2 990 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
             </div>
-            <img src="images/56aceaad9ecfb41e0b5ee88b_flag-12.png" class="flag">
-            <div class="name-country">австралия
-              <br>от 2 990 000 руб.</div>
-            <div class="wrapper-more">
-              <div data-ix="close-box" class="box">
-              </div>
-              <div class="window width nzl_w">
-                <div class="w-row">
-                  <div class="w-col w-col-6">
-                    <div class="tupy-visd-div">
-                      <div class="head-visa _2type">
-                        <div class="w-row">
-                          <div class="w-col w-col-7">
-                            <div class="head-header-visa">Виза в Австралию</div>
-                          </div>
-                          <div class="w-col w-col-5">
-                            <div class="price-visa">от 2 990 000 руб.</div>
-                          </div>
+            <div class="window width can_w">
+              <div class="w-row">
+                <div class="w-col w-col-6">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Виза в Канаду</div>
                         </div>
-                      </div>
-                      <div class="text-more-visa britan">
-                        <div class="text-more-in spec">Любые типы виз:
-                          <br>Туристическая, гостевая, бизнес виза.</div>
-                        <div class="text-more-in spec">Срок действия визы: от 6 месяцев</div>
-                        <div class="text-more-in spec">Срок оформления документов: от 10 дней</div>
-                        <div class="text-more-in spec">Безличная подача</div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 2 990 000 руб.</div>
+                        </div>
                       </div>
                     </div>
+                    <div class="text-more-visa britan">
+                      <div class="text-more-in spec">Любые типы виз:
+                        <br>Туристическая, гостевая, бизнес виза.</div>
+                      <div class="text-more-in spec">Срок действия визы: от 6 месяцев&nbsp;</div>
+                      <div class="text-more-in spec">Срок оформления документов: от&nbsp;10&nbsp;дней</div>
+                      <div class="text-more-in spec">Безличная подача&nbsp;</div>
+                    </div>
                   </div>
-                  <div class="w-col w-col-6 col2_border no_bord">
-                    <div class="window-wrapper no-border">
-                      <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                      <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
-                      <div class="w-form">
-                        <form id="form-more-11" name="wf-form-" data-name="Австралия" data-redirect="/thanks.html" class="form-size">
-                          <div class="w-row row-visas">
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-12" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
-                                <label for="visa-12" class="w-form-label radio-label">Однократная</label>
-                              </div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-                              <div class="w-radio w-clearfix radio-field">
-                                <input id="visa-more12" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
-                                <label for="visa-more12" class="w-form-label radio-label">Многократная</label>
-                              </div>
+                </div>
+                <div class="w-col w-col-6 col2_border no_bord">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-10" name="wf-form-" data-name="Канада" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-11" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-11" class="w-form-label radio-label">Однократная</label>
                             </div>
                           </div>
-                          <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                          <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                          <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                          <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                        </form>
-                        <div class="w-form-done fon-thank">
-                          <p class="thank">Спасибо!
-                            <br>Ваш запрос успешно отправлен!</p>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more11" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more11" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="w-form-fail eroor-fon">
-                          <p class="text-error">Возникла ошибка во время отправки формы!</p>
-                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
             </div>
-            <div class="btn-wrapper1">
-              <div data-ix="close-box" class="box">
+            <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window can">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="form-btn-10" name="wf-form-" data-name="Канада" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph11" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                  </div>
+                </div>
               </div>
-              <div class="window nzl">
-                <div class="window-wrapper">
-                  <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
-                  <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
-                  <div class="w-form">
-                    <form id="form-btn-11" name="wf-form-" data-name="Австралия" data-redirect="/thanks.html" class="form-size">
-                      <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
-                      <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
-                      <input id="ph12" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
-                      <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
-                    </form>
-                    <div class="w-form-done fon-thank">
-                      <p class="thank">Спасибо!
-                        <br>Ваш запрос успешно отправлен!</p>
+            </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
+          </div>
+        </div>
+        <div class="card-img card-12">
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window width nzl_w">
+              <div class="w-row">
+                <div class="w-col w-col-6">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Виза в Австралию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 2 990 000 руб.</div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="w-form-fail eroor-fon">
-                      <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                    <div class="text-more-visa britan">
+                      <div class="text-more-in spec">Любые типы виз:
+                        <br>Туристическая, гостевая, бизнес виза.</div>
+                      <div class="text-more-in spec">Срок действия визы: от 6 месяцев</div>
+                      <div class="text-more-in spec">Срок оформления документов: от 10 дней</div>
+                      <div class="text-more-in spec">Безличная подача</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6 col2_border no_bord">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-button close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="wf-form--24" name="wf-form-" data-name="Австралия" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-12" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-12" class="w-form-label radio-label">Однократная</label>
+                            </div>
+                          </div>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more12" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more12" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
+                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
-                <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-              </a>
             </div>
+            <a href="#" data-ix="open-window" class="w-inline-block img-city-wrapper">
+              <img src="images/56aceaad9ecfb41e0b5ee8df_Australia20445_c.jpg" class="imgcity">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img src="images/56aceaad9ecfb41e0b5ee88b_flag-12.png" class="flag">
+          <div class="name-country">австралия
+            <br>от 2 990 000 руб.</div>
+          <div class="wrapper-more">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window width nzl_w">
+              <div class="w-row">
+                <div class="w-col w-col-6">
+                  <div class="tupy-visd-div">
+                    <div class="head-visa _2type">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Виза в Австралию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="price-visa">от 2 990 000 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-more-visa britan">
+                      <div class="text-more-in spec">Любые типы виз:
+                        <br>Туристическая, гостевая, бизнес виза.</div>
+                      <div class="text-more-in spec">Срок действия визы: от 6 месяцев</div>
+                      <div class="text-more-in spec">Срок оформления документов: от 10 дней</div>
+                      <div class="text-more-in spec">Безличная подача</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6 col2_border no_bord">
+                  <div class="window-wrapper no-border">
+                    <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form id="form-more-11" name="wf-form-" data-name="Австралия" data-redirect="/thanks.html" class="form-size">
+                        <div class="w-row row-visas">
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-12" type="radio" name="visa" value="Однократная" data-name="visa" class="w-radio-input radio-btn-visa">
+                              <label for="visa-12" class="w-form-label radio-label">Однократная</label>
+                            </div>
+                          </div>
+                          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+                            <div class="w-radio w-clearfix radio-field">
+                              <input id="visa-more12" type="radio" name="visa" value="Многократная" data-name="visa" class="w-radio-input">
+                              <label for="visa-more12" class="w-form-label radio-label">Многократная</label>
+                            </div>
+                          </div>
+                        </div>
+                        <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                        <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                        <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                        <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                      </form>
+                      <div class="w-form-done fon-thank">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="w-form-fail eroor-fon">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" data-ix="open-window" class="more">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div data-ix="close-box" class="box">
+            </div>
+            <div class="window nzl">
+              <div class="window-wrapper">
+                <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form id="form-btn-11" name="wf-form-" data-name="Австралия" data-redirect="/thanks.html" class="form-size">
+                    <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
+                    <input id="email-3" type="email" placeholder="Введите Ваш e-mail" name="email" data-name="Email 3" required="required" class="w-input text-field margin">
+                    <input id="ph12" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
+                    <input type="submit" value="Получить визу" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn">
+                  </form>
+                  <div class="w-form-done fon-thank">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="w-form-fail eroor-fon">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" data-ix="open-window" class="w-inline-block btn buy-btn">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
           </div>
         </div>
       </div>
