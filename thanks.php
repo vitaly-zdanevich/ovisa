@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Sun Apr 17 2016 20:58:37 GMT+0000 (UTC) -->
-<html data-wf-site="56aceaac9ecfb41e0b5ee7fc" data-wf-page="56aceaad9ecfb41e0b5ee801" data-wf-status='1'>
+<!-- Last Published: Fri Apr 22 2016 14:25:20 GMT+0000 (UTC) -->
+<html data-wf-site="56aceaac9ecfb41e0b5ee7fc" data-wf-page="56aceaad9ecfb41e0b5ee801" data-wf-status='1' data-wf-domain="vizaminsk2.webflow.io">
 
 <head>
   <meta charset="utf-8">
@@ -93,7 +93,7 @@
                   <a href="#" data-ix="close-box" class="w-inline-block close-btn"></a>
                   <h3 class="window-header header_call">Отправьте заявку и мы перезвоним вам в течение 5 минут</h3>
                   <div class="w-form">
-                    <form id="form-top1" name="wf-form-" data-name="Обратный звонок" data-redirect="/thanks.html" class="form-size">
+                    <form id="form-top1" name="wf-form-" data-name="Обратный звонок" data-redirect="/thanks.php" class="form-size">
                       <input id="node-5" type="text" placeholder="Введите Ваше имя" data-name="Имя" required="required" class="w-input text-field margin">
                       <input id="ph1" type="text" placeholder="+375 (__) ___-__-__" data-name="phone" required="required" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" class="w-input phone-in">
                       <input type="submit" value="Отправить заявку" data-wait="Подождите..." wait="Подождите..." class="w-button btn wind-btn call_back">
