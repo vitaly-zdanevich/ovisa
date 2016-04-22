@@ -21,9 +21,7 @@ foreach($_POST as $key => $value){
     if($value !== ''){ $fields .= str_replace('_',' ',$key).': <b>'.$value.'</b> <br />'; }
   }
 }
-
 smtpmail($email, $subject, $message.'<br>'.$fields);
-
 function smtpmail($to, $subject, $content)
 {
 global $success, $__smtp, $smtp, $redirect;
@@ -47,7 +45,6 @@ try {
   $mail->SetFrom($__smtp['addreply'], $__smtp['from']);
   $mail->Subject = htmlspecialchars($subject);
   $mail->MsgHTML($content);
-
   $mail->Send(); echo('success');
 } catch (phpmailerException $e) {
   echo $e->errorMessage();
