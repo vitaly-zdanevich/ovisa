@@ -52,7 +52,7 @@
 <?php if(file_exists('head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php')){ include_once 'head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
 <?php if(file_exists('head_code.php')){ include_once 'head_code.php'; } ?></head>
 
-<body wd_update="http://ovisa.by/" wd_upload="0" class="body">
+<body class="body">
   <div id="top" class="w-section top">
     <div class="container">
       <div class="w-row">
