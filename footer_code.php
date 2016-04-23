@@ -1,4 +1,22 @@
-<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/masked_input_1.4.1-min.js"></script>
+
+<script type="text/javascript">
+window.onload = function() {
+  var phones = document.getElementsByClassName('phone-in');
+  for(var i = 0; i < phones.length; i++) {
+     phoneMaskActivate(phones.item(i));
+  }
+};
+
+function phoneMaskActivate(phone) {
+   MaskedInput({
+     elm: phone,
+     format: '+375 (__) ___-__-__',
+     separator: '+375 ()-'
+   });
+}
+</script>
+
 <script type="text/javascript" src="js/jquery.maskedinput-1.2.2.js"></script>
 
 <!-- Yandex.Metrika counter -->
@@ -32,7 +50,7 @@
 <!-- /Yandex.Metrika counter -->
 
 <!-- Google.Analytics -->
-<script>
+<script type='text/javascript'>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -47,6 +65,7 @@
 <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>
 (function(){ var widget_id = 'OSc79gsAag';
-var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();
+</script>
 <!-- {/literal} END JIVOSITE CODE -->
 <!-- Eсли вы не уверены, как это сделать – проконсультируйтесь с разработчиком вашего сайта. -->
