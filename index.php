@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Apr 22 2016 14:25:21 GMT+0000 (UTC) -->
+<!-- Last Published: Sat Apr 23 2016 13:32:09 GMT+0000 (UTC) -->
 <html data-wf-site="56aceaac9ecfb41e0b5ee7fc" data-wf-page="56aceaad9ecfb41e0b5ee800" data-wf-status='1' data-wf-domain="vizaminsk2.webflow.io">
 
 <head>
@@ -52,7 +52,7 @@
 <?php if(file_exists('head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php')){ include_once 'head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
 <?php if(file_exists('head_code.php')){ include_once 'head_code.php'; } ?></head>
 
-<body class="body">
+<body wd_update2="http://ovisa.by/" class="body">
   <div id="top" class="w-section top">
     <div class="container">
       <div class="w-row">
@@ -120,7 +120,7 @@
       </div>
       <div class="w-col w-col-6 hero-column-l">
         <div class="hero-wrapper-text">
-          <h1 class="hero-header">2. ГАРАНТИРОВАННОЕ ОТКРЫТИЕ ШЕНГЕНСКИХ
+          <h1 class="hero-header">ГАРАНТИРОВАННОЕ ОТКРЫТИЕ ШЕНГЕНСКИХ
             <br>МУЛЬТИВИЗ В МИНСКЕ ОТ 190.000 BYR</h1>
           <div class="plus-wrapper">
             <div class="check-point">
