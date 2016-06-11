@@ -17,8 +17,6 @@ function phoneMaskActivate(phone) {
 }
 </script>
 
-<script type="text/javascript" src="js/jquery.maskedinput-1.2.2.js"></script>
-
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {

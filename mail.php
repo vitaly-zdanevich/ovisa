@@ -21,7 +21,9 @@ foreach($_POST as $key => $value){
     if($value !== ''){ $fields .= str_replace('_',' ',$key).': <b>'.$value.'</b> <br />'; }
   }
 }
+
 smtpmail($email, $subject, $message.'<br>'.$fields);
+
 function smtpmail($to, $subject, $content)
 {
 global $success, $__smtp, $smtp, $redirect;
