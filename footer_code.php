@@ -1,20 +1,12 @@
-<script type="text/javascript" src="js/masked_input_1.4.1-min.js"></script>
+<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 
 <script type="text/javascript">
-window.onload = function() {
-  var phones = document.getElementsByClassName('phone-in');
-  for(var i = 0; i < phones.length; i++) {
-     phoneMaskActivate(phones.item(i));
-  }
-};
-
-function phoneMaskActivate(phone) {
-   MaskedInput({
-     elm: phone,
-     format: '+375 (__) ___-__-__',
-     separator: '+375 ()-'
-   });
-}
+$(document).ready(function(){
+    $.mask.definitions['p'] = "1|2|3|4";
+    $.mask.definitions['t'] = "3|4|5|7|9";
+                
+    $('.phone-in').mask("+375 (pt) 999-99-99");        
+});
 </script>
 
 <!-- Yandex.Metrika counter -->
