@@ -50,12 +50,18 @@ $(document).ready(function(){
 </script>
 <!-- /Google.Analytics -->
 
+<script type="text/javascript" src="//api.venyoo.ru/wnew.js?wc=venyoo/default/science&widget_id=6652981224931328"></script>
+
 
 <!-- Установите на каждой странице вашего сайта этот код прямо перед закрывающим тегом </body>: -->
 <!-- BEGIN JIVOSITE CODE {literal} -->
+
+<!--
 <script type='text/javascript'>
 (function(){ var widget_id = 'OSc79gsAag';
 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();
 </script>
+-->
+
 <!-- {/literal} END JIVOSITE CODE -->
 <!-- Eсли вы не уверены, как это сделать – проконсультируйтесь с разработчиком вашего сайта. -->
