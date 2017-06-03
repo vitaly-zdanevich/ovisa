@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <title>Спасибо</title>
-  <meta content="ЦЕНТР ПО БЫСТРОМУ ОТКРЫТИЮ ВИЗ В МИНСКЕ.ГАРАНТИРОВАННОЕ ОТКРЫТИЕ ШЕНГЕНСКИХ МУЛЬТИВИЗ В МИНСКЕ!100% ТОЧНО В СРОК! ДОСТАВКА КУРЬЕРОМ В ТЕЧЕНИЕ ДНЯ!Адрес: г. Минск, ул. Змитрока Бядули 11, 8 этаж, офис 813" name="description">
+  <meta content="ЦЕНТР ПО БЫСТРОМУ ОТКРЫТИЮ ВИЗ В МИНСКЕ.ГАРАНТИРОВАННОЕ ОТКРЫТИЕ ШЕНГЕНСКИХ  МУЛЬТИВИЗ В МИНСКЕ!100% ТОЧНО В СРОК!  ДОСТАВКА КУРЬЕРОМ В ТЕЧЕНИЕ ДНЯ! Адрес: г. Минск, ул. Змитрока Бядули 11,  8 этаж, офис 813" name="description">
   <meta content="Спасибо" property="og:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   
@@ -48,25 +48,38 @@
         <a class="logo-block w-inline-block" href="/">
           <img src="images/56fd909cf981a22950281bd6_logo2a.svg" width="220">
           <div class="logo-description">Центр по быстрому
-            <span class="blue">открытию виз</span>в &nbsp;Минске</div>
+            <span class="blue">открытию виз</span>в&nbsp;Минске</div>
         </a>
         <div class="top-about-text">Режим работы:
-          <span class="bold-text-2">9.00 - 18.00</span>
+          <span class="bold-text-2">9.00 - 18.00 пн-пт</span>
           <br>Адрес:&nbsp;
-          <a class="bold-text-2" href="#map">г. Минск, ул. Гурского 46, офис 18</a>
+          <a href="#map" class="bold-text-2">г. Минск, ул. Гурского 46, офис 18</a>
         </div>
         <div class="tel-block">
           <div>
-            <a class="viberl-ink w-inline-block" data-ix="show-viber" href="viber:+375296855556">
+            <a class="viberl-ink w-inline-block" data-ix="show-viber">
               <img src="images/56aceaad9ecfb41e0b5ee813_unnamed.png">
               <div class="viber-wrapper">
                 <div class="arrow_up top-ar">
                 </div>
                 <h4 class="heading-viber">Мы всегда с вами на связи</h4>
-                <div class="viber-text">Добавьте нас в&nbsp;Viber. Специалисты&nbsp;«ВИЗАМИНСК» ответят на&nbsp;ваши вопросы в&nbsp;любое время суток</div>
+                <div class="viber-text">Добавьте нас в&nbsp;Viber. Специалисты&nbsp;«OVISA.BY» ответят на&nbsp;ваши вопросы в&nbsp;любое время &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;суток</div>
               </div>
             </a>
-            <a class="tel" href="tel:+375296855556">
+            <a class="tel" href="tel:+375296852570">
+              <span class="min-tel">8 (029) &nbsp;</span>685-25-70</a>
+          </div>
+          <div>
+            <a class="viberl-ink w-inline-block" data-ix="show-viber">
+              <img src="images/56aceaad9ecfb41e0b5ee813_unnamed.png">
+              <div class="viber-wrapper">
+                <div class="arrow_up top-ar">
+                </div>
+                <h4 class="heading-viber">Мы всегда с вами на связи</h4>
+                <div class="viber-text">Добавьте нас в&nbsp;Viber. Специалисты&nbsp;«OVISA.BY» ответят на&nbsp;ваши вопросы в&nbsp;любое время &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;суток</div>
+              </div>
+            </a>
+            <a class="tel" href="tel:+375296852550">
               <span class="min-tel">8 (029) &nbsp;</span>685-25-50</a>
           </div>
           <div class="btn-wrapper1">
@@ -144,9 +157,7 @@
   <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
 <script type="text/javascript" src="./mail.js"></script>
-<script type="text/javascript">$(document).ready(function(){
-    $('[href$="brandjs"]').css({'display':'none'});
-  });</script>
+<script type="text/javascript">$(document).ready(function(){$('[href*="brandjs"]').attr('style', 'display:none !important');});</script>
 <?php if(file_exists('footer_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'))
     { include_once 'footer_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
 <?php if(file_exists('footer_code.php')){ include_once 'footer_code.php'; } ?></body>

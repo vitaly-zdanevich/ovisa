@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <title>Визы в Минске.Визы в Польшу,Литву,Италию,Испанию,Германию и др.страны Евросоюза,однократные и многократные.</title>
-  <meta content="ЦЕНТР ПО БЫСТРОМУ ОТКРЫТИЮ ВИЗ В МИНСКЕ.ГАРАНТИРОВАННОЕ ОТКРЫТИЕ ШЕНГЕНСКИХ МУЛЬТИВИЗ В МИНСКЕ!100% ТОЧНО В СРОК! ДОСТАВКА КУРЬЕРОМ В ТЕЧЕНИЕ ДНЯ!Адрес: г. Минск, ул. Змитрока Бядули 11, 8 этаж, офис 813" name="description">
+  <meta content="ЦЕНТР ПО БЫСТРОМУ ОТКРЫТИЮ ВИЗ В МИНСКЕ.ГАРАНТИРОВАННОЕ ОТКРЫТИЕ ШЕНГЕНСКИХ  МУЛЬТИВИЗ В МИНСКЕ!100% ТОЧНО В СРОК!  ДОСТАВКА КУРЬЕРОМ В ТЕЧЕНИЕ ДНЯ! Адрес: г. Минск, ул. Змитрока Бядули 11,  8 этаж, офис 813" name="description">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   
   
@@ -40,7 +40,7 @@
     { include_once 'head_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
 <?php if(file_exists('head_code.php')){ include_once 'head_code.php'; } ?></head>
 
-<body class="body" wd_update1="http://ovisa.by/" wp_pages="thanks">
+<body class="body" wp_pages="thanks">
   <div class="bottom-window w-hidden-small w-hidden-tiny">
     <div class="close-btn-2" data-ix="close-window-bottom">
     </div>
@@ -49,7 +49,7 @@
       <div class="title-window-bottom">
         <h3 class="title-window-h3">СУПЕРПРЕДЛОЖЕНИЕ ДО 31.11.2016</h3>
         <h3 class="subtitle-window">Получите скидку
-          <span class="bold-window-title">20 рублей&nbsp;</span>для получения визы в&nbsp;Польшу!</h3>
+          <span class="bold-window-title">20 рублей&nbsp;</span>на оформление туристической визы в&nbsp;Польшу!</h3>
       </div>
       <div class="tel-box">
         <div class="form-wrapper-window-bottom w-form">
@@ -73,25 +73,38 @@
         <a class="logo-block w-inline-block" href="/">
           <img src="images/56fd909cf981a22950281bd6_logo2a.svg" width="220">
           <div class="logo-description">Центр по быстрому
-            <span class="blue">открытию виз</span>в &nbsp;Минске</div>
+            <span class="blue">открытию виз</span>в&nbsp;Минске</div>
         </a>
         <div class="top-about-text">Режим работы:
-          <span class="bold-text-2">9.00 - 18.00</span>
+          <span class="bold-text-2">9.00 - 18.00 пн-пт</span>
           <br>Адрес:&nbsp;
-          <a class="bold-text-2" href="#map">г. Минск, ул. Гурского 46, офис 18</a>
+          <a href="#map" class="bold-text-2">г. Минск, ул. Гурского 46, офис 18</a>
         </div>
         <div class="tel-block">
           <div>
-            <a class="viberl-ink w-inline-block" data-ix="show-viber" href="viber:+375296855556">
+            <a class="viberl-ink w-inline-block" data-ix="show-viber">
               <img src="images/56aceaad9ecfb41e0b5ee813_unnamed.png">
               <div class="viber-wrapper">
                 <div class="arrow_up top-ar">
                 </div>
                 <h4 class="heading-viber">Мы всегда с вами на связи</h4>
-                <div class="viber-text">Добавьте нас в&nbsp;Viber. Специалисты&nbsp;«ВИЗАМИНСК» ответят на&nbsp;ваши вопросы в&nbsp;любое время суток</div>
+                <div class="viber-text">Добавьте нас в&nbsp;Viber. Специалисты&nbsp;«OVISA.BY» ответят на&nbsp;ваши вопросы в&nbsp;любое время &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;суток</div>
               </div>
             </a>
-            <a class="tel" href="tel:+375296855556">
+            <a class="tel" href="tel:+375296852570">
+              <span class="min-tel">8 (029) &nbsp;</span>685-25-70</a>
+          </div>
+          <div>
+            <a class="viberl-ink w-inline-block" data-ix="show-viber">
+              <img src="images/56aceaad9ecfb41e0b5ee813_unnamed.png">
+              <div class="viber-wrapper">
+                <div class="arrow_up top-ar">
+                </div>
+                <h4 class="heading-viber">Мы всегда с вами на связи</h4>
+                <div class="viber-text">Добавьте нас в&nbsp;Viber. Специалисты&nbsp;«OVISA.BY» ответят на&nbsp;ваши вопросы в&nbsp;любое время &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;суток</div>
+              </div>
+            </a>
+            <a class="tel" href="tel:+375296852550">
               <span class="min-tel">8 (029) &nbsp;</span>685-25-50</a>
           </div>
           <div class="btn-wrapper1">
@@ -124,29 +137,35 @@
     </div>
   </div>
   <div class="hero">
-    <div class="w-row">
-      <div class="hero-column w-col w-col-6">
-      </div>
-      <div class="hero-column-l w-col w-col-6">
-        <div class="hero-wrapper-text">
-          <h1 class="hero-header">ГАРАНТИРОВАННОЕ ОТКРЫТИЕ ШЕНГЕНСКИХ
-            <br>МУЛЬТИВИЗ В МИНСКЕ ОТ 19 РУБ (190.000 BYR)</h1>
-          <div class="plus-wrapper">
-            <div class="check-point">
-              <img class="ic-check" src="images/56aceaad9ecfb41e0b5ee8e3_ic_check.svg">
-              <div class="plus">Бесплатная доставка курьером!</div>
-            </div>
-            <div class="check-point">
-              <img class="ic-check" src="images/56aceaad9ecfb41e0b5ee8e3_ic_check.svg">
-              <div class="plus">Годовая виза по цене однократной!</div>
-            </div>
-            <div class="check-point">
-              <img class="ic-check" src="images/56aceaad9ecfb41e0b5ee8e3_ic_check.svg">
-              <div class="plus">Гарантия получения визы 99 %!</div>
-            </div>
-            <div class="check-point">
-              <a class="top-link" href="https://vk.com/topic-114208711_33628033" target="_blank">Почитайте отзывы наших клиентов</a>
-            </div>
+    <div class="hero-left">
+    </div>
+    <div class="hero-right">
+      <div class="hero-wrapper-text">
+        <h1 class="hero-header">ГАРАНТИРОВАННОЕ ОТКРЫТИЕ ШЕНГЕНСКИХ
+          <br>МУЛЬТИВИЗ В МИНСКЕ ОТ 19 РУБ</h1>
+        <div class="plus-wrapper">
+          <div class="check-point">
+            <img class="ic-check" src="images/56aceaad9ecfb41e0b5ee8e3_ic_check.svg">
+            <div class="plus">Бесплатная доставка курьером!</div>
+          </div>
+          <div class="check-point">
+            <img class="ic-check" src="images/56aceaad9ecfb41e0b5ee8e3_ic_check.svg">
+            <div class="plus">Годовая виза по цене однократной!</div>
+          </div>
+          <div class="check-point">
+            <img class="ic-check" src="images/56aceaad9ecfb41e0b5ee8e3_ic_check.svg">
+            <div class="plus">Гарантия получения визы 99 %!</div>
+          </div>
+          <div class="check-point">
+            <img class="ic-check" src="images/56aceaad9ecfb41e0b5ee8e3_ic_check.svg">
+            <div class="plus">Детям до 12 лет БЕСПЛАТНО!</div>
+          </div>
+          <div class="check-point">
+            <img class="ic-check" src="images/56aceaad9ecfb41e0b5ee8e3_ic_check.svg">
+            <div class="plus">Пенсионерам скидка 20%!</div>
+          </div>
+          <div class="check-point last-point">
+            <a class="top-link" href="https://vk.com/topic-114208711_33628033" target="_blank">Почитайте отзывы наших клиентов</a>
           </div>
         </div>
       </div>
@@ -257,15 +276,15 @@
           <div class="header">Наши менеджеры</div>
           <div class="slider w-slider" data-animation="slide" data-duration="500" data-infinite="1">
             <div class="w-slider-mask">
+              <div class="slide-1 w-slide">
+                <img class="imgsquare" src="images/5877c26b4d2d890c356f8cf2_e3um5iQnS2E-(1)_compressed.jpg">
+                <div class="text-name">Анастасия</div>
+                <div class="tel-meneger">+375(29) 685-25-70</div>
+              </div>
               <div class="slide-2 w-slide">
                 <img class="imgsquare" src="images/56fe217a1eef062419824e31_cons2.jpg">
                 <div class="text-name">Анастасия</div>
-                <div class="tel-meneger">+375-29 685-25-50</div>
-              </div>
-              <div class="slide-1 w-slide">
-                <img class="imgsquare" src="images/56fe218a2633ca567d170c1d_cons1.jpg">
-                <div class="text-name">Павел</div>
-                <div class="tel-meneger">+375-29 685-55-56</div>
+                <div class="tel-meneger">+375(29) 685-25-50</div>
               </div>
             </div>
             <div class="arrow-h w-slider-arrow-left">
@@ -298,47 +317,46 @@
                     <div class="head-visa">
                       <div class="w-row">
                         <div class="w-col w-col-7">
-                          <div class="head-header-visa">Однократная виза в Польшу</div>
+                          <div class="head-header-visa">Туристическая виза в Польшу</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 590 000 руб.</div>
+                          <div class="price-visa">44 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="text-more-visa">
-                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
-                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
-                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;безличный</div>
-                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                      <div class="text-more-in">Однократная – от 4 до 14 дней</div>
+                      <div class="text-more-in">Многократная – 1 - 2 года</div>
+                      <div class="text-more-in">Способ подачи – личный</div>
+                      <div class="text-more-in">Срок оформления – от 5 дней</div>
                     </div>
                   </div>
                   <div class="tupy-visd-div">
                     <div class="head-visa">
                       <div class="w-row">
                         <div class="w-col w-col-7">
-                          <div class="head-header-visa">Многократная виза в Польшу</div>
+                          <div class="head-header-visa">Виза в Польшу “ЗА ПОКУПКАМИ”</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 990 000 руб.</div>
+                          <div class="price-visa">33 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="last text-more-visa">
-                      <div class="text-more-in">МУЛЬТИВИЗА “ЗА ПОКУПКАМИ”
-                        <br>срок пребывания&nbsp;-&nbsp;180,
-                        <br>срок действия визы - 12 мес,
+                      <div class="text-more-in">Однократная – от 5 дней
+                        <br>Многократная – 1 - 2 года
+                        <br>Способ подачи – личный
+                        <br>Срок оформления – от 5 дней</div>
+                      <div class="text-more-in">
+                        <strong>ДЕЛОВАЯ МУЛЬТИВИЗА - 59 руб.</strong>
+                        <br>срок действия визы - 1-2 года
                         <br>способ подачи - личный</div>
-                      <div class="text-more-in">МУЛЬТИВИЗА НА 2 ГОДА
-                        <br>срок пребывания - 180,
-                        <br>срок действия визы - 2 года,
+                      <div class="text-more-in">
+                        <strong>КУЛЬТУРНАЯ МУЛЬТИВИЗА - 670 руб.</strong>
+                        <br>срок действия визы - 2-3 года
                         <br>способ подачи - безличный</div>
-                      <div class="text-more-in">ДЕЛОВАЯ МУЛЬТИВИЗА
-                        <br>срок пребывания - 180,
-                        <br>срок действия визы - 12 мес,
-                        <br>способ подачи - личный</div>
-                      <div class="text-more-in">КУЛЬТУРНАЯ МУЛЬТИВИЗА
-                        <br>срок пребывания - 180,
-                        <br>срок действия визы - 12 мес,
+                      <div class="text-more-in">КУЛЬТУРНАЯ МУЛЬТИВИЗА - 670 руб.
+                        <br>срок действия визы - 2-3 года
                         <br>способ подачи - безличный</div>
                     </div>
                   </div>
@@ -388,7 +406,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee8d2_poland.png">
           <div class="name-country">ПОЛЬША
-            <br>от 39 РУБ (390 000 руб)</div>
+            <br>от 33 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -399,48 +417,50 @@
                     <div class="_2type head-visa">
                       <div class="w-row">
                         <div class="w-col w-col-7">
-                          <div class="head-header-visa">Однократная виза в Польшу</div>
+                          <div class="head-header-visa">Туристическая виза в Польшу</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 690 000 руб.</div>
+                          <div class="price-visa">44 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="text-more-visa">
-                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
-                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
-                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;безличный</div>
-                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
+                      <div class="text-more-in">Однократная – от 4 до 14 дней</div>
+                      <div class="text-more-in">Многократная – 1 - 2 года</div>
+                      <div class="text-more-in">Способ подачи – личный</div>
+                      <div class="text-more-in">Срок оформления – от 5 дней</div>
                     </div>
                   </div>
                   <div class="tupy-visd-div">
                     <div class="head-visa">
                       <div class="w-row">
                         <div class="w-col w-col-7">
-                          <div class="head-header-visa">Многократная виза в Польшу</div>
+                          <div class="head-header-visa">Виза в Польшу “ЗА ПОКУПКАМИ”</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 390 000 руб.</div>
+                          <div class="price-visa">&nbsp;33 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="last text-more-visa">
-                      <div class="text-more-in">МУЛЬТИВИЗА “ЗА ПОКУПКАМИ”
-                        <br>срок пребывания&nbsp;-&nbsp;180,
-                        <br>срок действия визы - 12 мес,
+                      <div class="text-more-in">Однократная – от 5 дней
+                        <br>Многократная – 1 - 2 года
+                        <br>Способ подачи – личный
+                        <br>Срок оформления – от 5 дней</div>
+                      <div class="text-more-in">
+                        <strong>ДЕЛОВАЯ МУЛЬТИВИЗА - 69 руб.</strong>
+                        <br>срок действия визы - 1-2 года
                         <br>способ подачи - личный</div>
-                      <div class="text-more-in">МУЛЬТИВИЗА НА 2 ГОДА
-                        <br>срок пребывания - 180,
-                        <br>срок действия визы - 2 года,
+                      <div class="text-more-in">
+                        <strong>КУЛЬТУРНАЯ МУЛЬТИВИЗА - 670 руб.</strong>
+                        <br>срок действия визы - 2-3 года
                         <br>способ подачи - безличный</div>
-                      <div class="text-more-in">ДЕЛОВАЯ МУЛЬТИВИЗА
-                        <br>срок пребывания - 180,
-                        <br>срок действия визы - 12 мес,
-                        <br>способ подачи - личный</div>
-                      <div class="text-more-in">КУЛЬТУРНАЯ МУЛЬТИВИЗА
-                        <br>срок пребывания - 180,
-                        <br>срок действия визы - 12 мес,
-                        <br>способ подачи - безличный</div>
+                      <div class="text-more-in">
+                        <strong>
+                          <br>
+                          <br>
+                        </strong>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -526,35 +546,46 @@
                     <div class="head-visa">
                       <div class="w-row">
                         <div class="w-col w-col-7">
-                          <div class="head-header-visa">Однократная виза в Литву</div>
+                          <div class="head-header-visa">Многократная виза в Литву через визовый центр</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 390 000 руб.</div>
+                          <div class="price-visa">19 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="text-more-visa">
-                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
-                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
-                      <div class="text-more-in">СПОСОБ ПОДАЧИ:&nbsp;безличный и личный</div>
-                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ&nbsp;от 7 дней</div>
+                      <div class="text-more-in">
+                        <strong>Консульский сбор 60 евро</strong>
+                        <br>
+                        <strong>Сервисный сбор визового центра 20 евро</strong>
+                      </div>
+                      <div class="text-more-in">Срок действия визы &nbsp;от 3 месяцев до 1 года</div>
+                      <div class="text-more-in">Способ подачи - личный</div>
+                      <div class="text-more-in">Срок оформления от 7 дней</div>
                     </div>
                   </div>
                   <div class="tupy-visd-div">
                     <div class="head-visa">
                       <div class="w-row">
                         <div class="w-col w-col-7">
-                          <div class="head-header-visa">Многократная виза в Литву</div>
+                          <div class="head-header-visa">Многократная виза в Литву через посольство</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 1350 000 руб.</div>
+                          <div class="price-visa">44 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="last litva text-more-visa">
-                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
-                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 45 до 180 дней</div>
-                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 3 до 24 месяцев</div>
+                      <div class="text-more-in">
+                        <strong>Консульский сбор 60 евро</strong>
+                        <br>
+                        <br>Срок оформления от 5 дней</div>
+                      <div class="text-more-in">Срок действия визы - от 3 до 1 года</div>
+                      <div class="text-more-in">Срок оформления –&nbsp;личный
+                        <br>
+                        <br>
+                        <strong>ЗАПИСЬ В ПОСОЛЬСТВО - 160&nbsp;000&nbsp;руб.</strong>
+                      </div>
                       <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
                       <div class="special-text text-more-in">ЗАПИСЬ В ПОСОЛЬСТВО - 160&nbsp;000&nbsp;руб.</div>
                     </div>
@@ -605,7 +636,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee827_flags-02.png">
           <div class="name-country">литва
-            <br>от 19 РУБ (190 000 руб)</div>
+            <br>от 19 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -616,37 +647,47 @@
                     <div class="_2type head-visa">
                       <div class="w-row">
                         <div class="w-col w-col-7">
-                          <div class="head-header-visa">Однократная виза в Литву</div>
+                          <div class="head-header-visa">Многократная виза в Литву через визовый центр</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 690 000 руб.</div>
+                          <div class="price-visa">19 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="text-more-visa">
-                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 1 до 14 дней</div>
-                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 1 до 14 дней</div>
-                      <div class="text-more-in">СПОСОБ ПОДАЧИ:&nbsp;безличный и личный</div>
-                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ&nbsp;от 7 дней</div>
+                      <div class="text-more-in">
+                        <strong>Консульский сбор 60 евро</strong>
+                        <br>
+                        <strong>Сервисный сбор визового центра 20 евро</strong>
+                      </div>
+                      <div class="text-more-in">Срок действия визы &nbsp;от 3 месяцев до 1 года</div>
+                      <div class="text-more-in">Способ подачи - личный</div>
+                      <div class="text-more-in">Срок оформления от 7 дней</div>
                     </div>
                   </div>
                   <div class="tupy-visd-div">
                     <div class="head-visa">
                       <div class="w-row">
                         <div class="w-col w-col-7">
-                          <div class="head-header-visa">Многократная виза в Литву</div>
+                          <div class="head-header-visa">Многократная виза в Литву через посольство</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 190 000 руб.</div>
+                          <div class="price-visa">&nbsp;44 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="last litva text-more-visa">
-                      <div class="text-more-in">СРОК ОФОРМЛЕНИЯ от 7 дней</div>
-                      <div class="text-more-in">СРОК ПРЕБЫВАНИЯ от 45 до 180 дней</div>
-                      <div class="text-more-in">СРОК ДЕЙСТВИЯ ВИЗЫ от 3 до 24 месяцев</div>
-                      <div class="text-more-in">СПОСОБ ПОДАЧИ –&nbsp;личный</div>
-                      <div class="special-text text-more-in">ЗАПИСЬ В ПОСОЛЬСТВО - 160&nbsp;000&nbsp;руб.</div>
+                      <div class="text-more-in">
+                        <strong>Консульский сбор 60 евро</strong>
+                        <br>
+                        <br>Срок оформления от 5 дней</div>
+                      <div class="text-more-in">Срок действия визы - от 3 до 1 года</div>
+                      <div class="text-more-in">Срок оформления –&nbsp;личный
+                        <br>
+                        <br>
+                        <strong>ЗАПИСЬ В ПОСОЛЬСТВО - 25&nbsp;руб.</strong>
+                      </div>
+                      <div class="text-more-in">способ подачи –&nbsp;личный</div>
                     </div>
                   </div>
                 </div>
@@ -735,7 +776,7 @@
                           <div class="head-header-visa">Однократная виза в Германию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 1900 000 руб.</div>
+                          <div class="price-visa">от 19&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -753,7 +794,7 @@
                           <div class="head-header-visa">Многократная виза в Германию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 2490 000 руб.</div>
+                          <div class="price-visa">от 249&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -810,7 +851,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee83f_flags-03.png">
           <div class="name-country">германия
-            <br>от 190 РУБ (1900000 руб)</div>
+            <br>от 190 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -824,7 +865,7 @@
                           <div class="head-header-visa">Однократная виза в Германию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 1900 000 руб.</div>
+                          <div class="price-visa">от 190&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -842,7 +883,7 @@
                           <div class="head-header-visa">Многократная виза в Германию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 2490 000 руб.</div>
+                          <div class="price-visa">от 249&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -936,7 +977,7 @@
                           <div class="head-header-visa">Однократная виза в Латвию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 330 000 руб.</div>
+                          <div class="price-visa">от 39 руб.</div>
                         </div>
                       </div>
                     </div>
@@ -954,7 +995,7 @@
                           <div class="head-header-visa">Многократная виза в Латвию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 1 890 000 руб.</div>
+                          <div class="price-visa">от 390 руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1011,7 +1052,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee81e_flags-04.png">
           <div class="name-country">латвия
-            <br>от 39 РУБ (390 000 РУБ)</div>
+            <br>от 39 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -1025,7 +1066,7 @@
                           <div class="head-header-visa">Однократная виза в Латвию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 390 000 руб.</div>
+                          <div class="price-visa">от 39&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1043,7 +1084,7 @@
                           <div class="head-header-visa">Многократная виза в Латвию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 390 000 руб.</div>
+                          <div class="price-visa">от 39&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1137,7 +1178,7 @@
                           <div class="head-header-visa">Однократная виза в Испанию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 340 000 руб.</div>
+                          <div class="price-visa">от &nbsp;69 руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1155,7 +1196,7 @@
                           <div class="head-header-visa">Многократная виза в Испанию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 400 000 руб.</div>
+                          <div class="price-visa">от &nbsp;69 &nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1212,7 +1253,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee81f_flags-05.png">
           <div class="name-country">испания
-            <br>от 69 РУБ (690 000 РУБ)&nbsp;</div>
+            <br>от 69 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -1226,7 +1267,7 @@
                           <div class="head-header-visa">Однократная виза в Испанию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от &nbsp;690 000 руб.</div>
+                          <div class="price-visa">от &nbsp;69&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1244,7 +1285,7 @@
                           <div class="head-header-visa">Многократная виза в Испанию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от &nbsp;690 000 &nbsp;руб.</div>
+                          <div class="price-visa">от &nbsp;69&nbsp; руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1338,7 +1379,7 @@
                           <div class="head-header-visa">Однократная виза в Италию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 990 000 руб.</div>
+                          <div class="price-visa">от 99&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1356,7 +1397,7 @@
                           <div class="head-header-visa">Многократная виза в Италию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 1 890 000 руб.</div>
+                          <div class="price-visa">от 169 руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1413,7 +1454,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee844_flags-06.png">
           <div class="name-country">италия
-            <br>ОТ 69 РУБ (690 000 РУБ)</div>
+            <br>ОТ 69 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -1427,7 +1468,7 @@
                           <div class="head-header-visa">Однократная виза в Италию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 990 000 руб.</div>
+                          <div class="price-visa">от 99&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1445,7 +1486,7 @@
                           <div class="head-header-visa">Многократная виза в Италию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 690 000 руб.</div>
+                          <div class="price-visa">от 169&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1539,7 +1580,7 @@
                           <div class="head-header-visa">Однократная виза в Чехию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 549 000 руб.</div>
+                          <div class="price-visa">от 54&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1557,7 +1598,7 @@
                           <div class="head-header-visa">Многократная виза в Чехию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 990 000 руб.</div>
+                          <div class="price-visa">от 99&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1614,7 +1655,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee829_flags-07.png">
           <div class="name-country">чехия
-            <br>ОТ 55 РУБ (550 000 РУБ)</div>
+            <br>ОТ 55 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -1628,7 +1669,7 @@
                           <div class="head-header-visa">Однократная виза в Чехию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 549 000 руб.</div>
+                          <div class="price-visa">от 54&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1646,7 +1687,7 @@
                           <div class="head-header-visa">Многократная виза в Чехию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 990 000 руб.</div>
+                          <div class="price-visa">от 99&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1740,7 +1781,7 @@
                           <div class="head-header-visa">Однократная виза в Францию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 490 000 руб.</div>
+                          <div class="price-visa">от 69 руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1758,7 +1799,7 @@
                           <div class="head-header-visa">Многократная виза в Францию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 790 000 руб.</div>
+                          <div class="price-visa">от 69 руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1815,7 +1856,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee8c8_flag-13.png">
           <div class="name-country">ФРАНЦИЯ
-            <br>ОТ 69 РУБ (690 000 РУБ)</div>
+            <br>ОТ 69 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -1829,7 +1870,7 @@
                           <div class="head-header-visa">Однократная виза в Францию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 690 000 руб.</div>
+                          <div class="price-visa">от 69&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1847,7 +1888,7 @@
                           <div class="head-header-visa">Многократная виза в Францию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 690 000 руб.</div>
+                          <div class="price-visa">от 69&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -1927,25 +1968,6 @@
             </a>
           </div>
         </div>
-        <a class="card-9 card-img w-inline-block" href="http://www.dreamvisa.by/" target="_blank">
-          <div>
-            <div class="img-city-wrapper">
-              <img class="america-city imgcity" src="images/56aceaad9ecfb41e0b5ee8dd_United20States20445_c.jpg">
-            </div>
-          </div>
-          <div class="americ-ar arrow_up block-ar">
-          </div>
-          <img class="flag" src="images/56aceaad9ecfb41e0b5ee888_flag-09.png">
-          <div class="name-country usa">США</div>
-          <div class="wrapper-more">
-            <div class="more">Подробнее</div>
-          </div>
-          <div class="btn-wrapper1">
-            <div class="btn buy-btn">
-              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
-            </div>
-          </div>
-        </a>
         <div class="card-10 card-img">
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
@@ -1960,16 +1982,182 @@
                           <div class="head-header-visa">Виза в Великобританию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="gbr_s price-visa">от 1 990 000 руб.</div>
+                          <div class="gbr_s price-visa">от 79 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="britan text-more-visa">
                       <div class="spec text-more-in">Любые типы виз:
                         <br>Туристическая, гостевая, бизнес виза.</div>
-                      <div class="spec text-more-in">Срок действия визы: от 6 месяцев</div>
-                      <div class="spec text-more-in">Срок оформления документов: от&nbsp;3&nbsp;дней</div>
-                      <div class="spec text-more-in">Личная и безличная подача</div>
+                      <div class="spec text-more-in">Срок действия визы - от 6 месяцев</div>
+                      <div class="spec text-more-in">Срок оформления документов - от&nbsp;3&nbsp;дней</div>
+                      <div class="spec text-more-in">Личная подача</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col2_border no_bord w-col w-col-6">
+                  <div class="no-border window-wrapper">
+                    <a class="close-btn w-button" data-ix="close-box" href="#"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form class="form-size" data-name="Великобритания" id="wf-form--22" name="wf-form-">
+                        <div class="row-visas w-row">
+                          <div class="w-clearfix w-col w-col-6 w-col-small-6 w-col-tiny-6">
+                            <div class="radio-field w-clearfix w-radio">
+                              <input class="radio-btn-visa w-radio-input" data-name="visa" id="visa-10" name="visa" type="radio" value="Однократная">
+                              <label class="radio-label w-form-label" for="visa-10">Однократная</label>
+                            </div>
+                          </div>
+                          <div class="w-clearfix w-col w-col-6 w-col-small-6 w-col-tiny-6">
+                            <div class="radio-field w-clearfix w-radio">
+                              <input class="w-radio-input" data-name="visa" id="visa-more10" name="visa" type="radio" value="Многократная">
+                              <label class="radio-label w-form-label" for="visa-more10">Многократная</label>
+                            </div>
+                          </div>
+                        </div>
+                        <input class="margin text-field w-input" data-name="Имя" id="node-5" maxlength="256" placeholder="Введите Ваше имя" required="required" type="text">
+                        <input class="margin text-field w-input" data-name="Email 3" id="email-3" maxlength="256" name="email" placeholder="Введите Ваш e-mail" required="required" type="email">
+                        <input class="phone-in w-input" data-name="phone" id="ph1" maxlength="256" name="phone" pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" placeholder="+375 (__) ___-__-__" required="required" type="text">
+                        <input class="btn w-button wind-btn" data-wait="Подождите..." type="submit" value="Получить визу" wait="Подождите...">
+                      </form>
+                      <div class="fon-thank w-form-done">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="eroor-fon w-form-fail">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="img-city-wrapper w-inline-block" data-ix="open-window" href="#">
+              <img class="america-city imgcity" src="images/56aceaad9ecfb41e0b5ee8dd_United20States20445_c.jpg">
+            </a>
+          </div>
+          <div class="arrow_up block-ar">
+          </div>
+          <img class="flag" src="images/56aceaad9ecfb41e0b5ee888_flag-09.png">
+          <div class="name-country usa">США</div>
+          <div class="wrapper-more">
+            <div class="box" data-ix="close-box">
+            </div>
+            <div class="gbr_w width window">
+              <div class="w-row">
+                <div class="col-none w-col w-col-6">
+                  <div class="tupy-visd-div">
+                    <div class="_2type head-visa">
+                      <div class="w-row">
+                        <div class="w-col w-col-7">
+                          <div class="head-header-visa">Виза в США</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="gbr_s price-visa">от 100 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="britan text-more-visa">
+                      <div class="spec text-more-in">Любые типы виз:
+                        <br>Туристическая, гостевая, бизнес виза.</div>
+                      <div class="spec text-more-in">Срок действия визы - от 6 месяцев</div>
+                      <div class="spec text-more-in">Срок оформления документов - 30&nbsp;дней</div>
+                      <div class="spec text-more-in">Личная подача</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col2_border no_bord w-col w-col-6">
+                  <div class="no-border window-wrapper">
+                    <a class="close-btn w-inline-block" data-ix="close-box" href="#"></a>
+                    <h3 class="window-header">Оставьте заявку и получите визу уже через 7 дней</h3>
+                    <div class="w-form">
+                      <form class="form-size" data-name="Великобритания" data-redirect="/thanks.php" id="form-more-9" name="wf-form-">
+                        <div class="row-visas w-row">
+                          <div class="w-clearfix w-col w-col-6 w-col-small-6 w-col-tiny-6">
+                            <div class="radio-field w-clearfix w-radio">
+                              <input class="radio-btn-visa w-radio-input" data-name="visa" id="visa-10" name="visa" type="radio" value="Однократная">
+                              <label class="radio-label w-form-label" for="visa-10">Однократная</label>
+                            </div>
+                          </div>
+                          <div class="w-clearfix w-col w-col-6 w-col-small-6 w-col-tiny-6">
+                            <div class="radio-field w-clearfix w-radio">
+                              <input class="w-radio-input" data-name="visa" id="visa-more10" name="visa" type="radio" value="Многократная">
+                              <label class="radio-label w-form-label" for="visa-more10">Многократная</label>
+                            </div>
+                          </div>
+                        </div>
+                        <input class="margin text-field w-input" data-name="Имя" id="node-5" maxlength="256" placeholder="Введите Ваше имя" required="required" type="text">
+                        <input class="margin text-field w-input" data-name="Email 3" id="email-3" maxlength="256" name="email" placeholder="Введите Ваш e-mail" required="required" type="email">
+                        <input class="phone-in w-input" data-name="phone" id="ph1" maxlength="256" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" placeholder="+375 (__) ___-__-__" required="required" type="text">
+                        <input class="btn w-button wind-btn" data-wait="Подождите..." type="submit" value="Получить визу" wait="Подождите...">
+                      </form>
+                      <div class="fon-thank w-form-done">
+                        <p class="thank">Спасибо!
+                          <br>Ваш запрос успешно отправлен!</p>
+                      </div>
+                      <div class="eroor-fon w-form-fail">
+                        <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="more" data-ix="open-window" href="#">&nbsp;Подробнее</a>
+          </div>
+          <div class="btn-wrapper1">
+            <div class="box" data-ix="close-box">
+            </div>
+            <div class="usa_1 window">
+              <div class="window-wrapper">
+                <a class="close-btn w-inline-block" data-ix="close-box" href="#"></a>
+                <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+                <div class="w-form">
+                  <form class="form-size" data-name="Великобритания" data-redirect="/thanks.php" id="form-btn-9" name="wf-form-">
+                    <input class="margin text-field w-input" data-name="Имя" id="node-5" maxlength="256" placeholder="Введите Ваше имя" required="required" type="text">
+                    <input class="margin text-field w-input" data-name="Email 3" id="email-3" maxlength="256" name="email" placeholder="Введите Ваш e-mail" required="required" type="email">
+                    <input class="phone-in w-input" data-name="phone" id="ph10" maxlength="256" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" placeholder="+375 (__) ___-__-__" required="required" type="text">
+                    <input class="btn w-button wind-btn" data-wait="Подождите..." type="submit" value="Получить визу" wait="Подождите...">
+                  </form>
+                  <div class="fon-thank w-form-done">
+                    <p class="thank">Спасибо!
+                      <br>Ваш запрос успешно отправлен!</p>
+                  </div>
+                  <div class="eroor-fon w-form-fail">
+                    <p class="text-error">Возникла ошибка во время отправки формы!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="btn buy-btn w-inline-block" data-ix="open-window" href="#">
+              <div class="text-btn">ПОЛУЧИТЬ ВИЗУ</div>
+            </a>
+          </div>
+        </div>
+        <div class="card-10 card-img">
+          <div class="wrapper-more">
+            <div class="box" data-ix="close-box">
+            </div>
+            <div class="gbr_w width window">
+              <div class="w-row">
+                <div class="col-none w-col w-col-6">
+                  <div class="tupy-visd-div">
+                    <div class="_2type head-visa">
+                      <div class="w-row">
+                        <div class="col-none w-col w-col-7">
+                          <div class="head-header-visa">Виза в Великобританию</div>
+                        </div>
+                        <div class="w-col w-col-5">
+                          <div class="gbr_s price-visa">от 79 руб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="britan text-more-visa">
+                      <div class="spec text-more-in">Любые типы виз:
+                        <br>Туристическая, гостевая, бизнес виза.</div>
+                      <div class="spec text-more-in">Срок действия визы - от 6 месяцев</div>
+                      <div class="spec text-more-in">Срок оформления документов - от&nbsp;3&nbsp;дней</div>
+                      <div class="spec text-more-in">Личная подача</div>
                     </div>
                   </div>
                 </div>
@@ -2018,7 +2206,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee889_flag-10.png">
           <div class="name-country">великобритания
-            <br>ОТ 199 РУБ (1990000 РУБ)</div>
+            <br>99 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -2032,16 +2220,16 @@
                           <div class="head-header-visa">Виза в Великобританию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="gbr_s price-visa">от 1 990 000 руб.</div>
+                          <div class="gbr_s price-visa">от 99 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="britan text-more-visa">
                       <div class="spec text-more-in">Любые типы виз:
                         <br>Туристическая, гостевая, бизнес виза.</div>
-                      <div class="spec text-more-in">Срок действия визы: от 6 месяцев</div>
-                      <div class="spec text-more-in">Срок оформления документов: от&nbsp;3&nbsp;дней</div>
-                      <div class="spec text-more-in">Личная и безличная подача</div>
+                      <div class="spec text-more-in">Срок действия визы - от 6 месяцев</div>
+                      <div class="spec text-more-in">Срок оформления документов - 30&nbsp;дней</div>
+                      <div class="spec text-more-in">Личная подача</div>
                     </div>
                   </div>
                 </div>
@@ -2127,15 +2315,15 @@
                           <div class="head-header-visa">Виза в Канаду</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 2 990 000 руб.</div>
+                          <div class="price-visa">от 179 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="britan text-more-visa">
                       <div class="spec text-more-in">Любые типы виз:
                         <br>Туристическая, гостевая, бизнес виза.</div>
-                      <div class="spec text-more-in">Срок действия визы: от 6 месяцев&nbsp;</div>
-                      <div class="spec text-more-in">Срок оформления документов: от&nbsp;10&nbsp;дней</div>
+                      <div class="spec text-more-in">Срок действия визы - от 6 месяцев&nbsp;</div>
+                      <div class="spec text-more-in">Срок оформления документов - от&nbsp;10&nbsp;дней</div>
                       <div class="spec text-more-in">Безличная подача&nbsp;</div>
                     </div>
                   </div>
@@ -2185,7 +2373,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee88a_flag-11.png">
           <div class="name-country">канада
-            <br>ОТ 299 РУБ (2990000 РУБ)</div>
+            <br>240 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -2199,15 +2387,15 @@
                           <div class="head-header-visa">Виза в Канаду</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 2 990 000 руб.</div>
+                          <div class="price-visa">от 240 руб.</div>
                         </div>
                       </div>
                     </div>
                     <div class="britan text-more-visa">
                       <div class="spec text-more-in">Любые типы виз:
                         <br>Туристическая, гостевая, бизнес виза.</div>
-                      <div class="spec text-more-in">Срок действия визы: от 6 месяцев&nbsp;</div>
-                      <div class="spec text-more-in">Срок оформления документов: от&nbsp;10&nbsp;дней</div>
+                      <div class="spec text-more-in">Срок действия визы - от 6 месяцев&nbsp;</div>
+                      <div class="spec text-more-in">Срок оформления документов - 30&nbsp;дней</div>
                       <div class="spec text-more-in">Безличная подача&nbsp;</div>
                     </div>
                   </div>
@@ -2294,7 +2482,7 @@
                           <div class="head-header-visa">Виза в Австралию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 2 990 000 руб.</div>
+                          <div class="price-visa">от 299&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -2352,7 +2540,7 @@
           </div>
           <img class="flag" src="images/56aceaad9ecfb41e0b5ee88b_flag-12.png">
           <div class="name-country">австралия
-            <br>ОТ 299 РУБ (2990000 РУБ)</div>
+            <br>299 РУБ</div>
           <div class="wrapper-more">
             <div class="box" data-ix="close-box">
             </div>
@@ -2366,7 +2554,7 @@
                           <div class="head-header-visa">Виза в Австралию</div>
                         </div>
                         <div class="w-col w-col-5">
-                          <div class="price-visa">от 2 990 000 руб.</div>
+                          <div class="price-visa">от 2 99&nbsp;руб.</div>
                         </div>
                       </div>
                     </div>
@@ -2574,7 +2762,7 @@
             <img class="shadow-img-2" src="images/56aceaad9ecfb41e0b5ee859_2_s.png">
           </div>
           <div class="step-text">Передача документов в&nbsp;компанию
-            <br>«Шенвиза» лично или через курьера</div>
+            <br>«Ovisa.by» лично или через курьера</div>
         </div>
         <div class="step-col w-col w-col-4">
           <div class="img-3-wrapper" data-ix="zoom-3">
@@ -2627,7 +2815,7 @@
               <input class="margin text-field w-input" data-name="Имя" id="node-5" maxlength="256" placeholder="Введите Ваше имя" required="required" type="text">
               <input class="margin text-field w-input" data-name="Email 3" id="email-3" maxlength="256" name="email" placeholder="Введите Ваш e-mail" required="required" type="email">
               <input class="phone-in w-input" data-name="phone" id="ph15" maxlength="256" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" placeholder="+375 (__) ___-__-__" required="required" type="text">
-              <input class="btn w-button wind-btn zaevka" data-wait="Подождите..." type="submit" value="получить визу за 390.000 BYR" wait="Подождите...">
+              <input class="btn w-button wind-btn zaevka" data-wait="Подождите..." type="submit" value="получить визу за 33 РУБ" wait="Подождите...">
             </form>
             <div class="fon-thank w-form-done">
               <p class="thank">Спасибо!
@@ -2645,8 +2833,9 @@
             <span class="poland-big-text">МУЛЬТИВИЗА
               <br>НА&nbsp;2&nbsp;ГОДА В Польшу</span>
             <br>"ЗА ПОКУПКАМИ"
-            <br>ЗА 39 РУБ (390 000 РУБ)</div>
-          <div class="spain-description">Успейте оставить заявку в августе,
+            <br>
+            <strong>ЗА 33 РУБ</strong>&nbsp;</div>
+          <div class="spain-description">Успейте оставить заявку яНВАРЕ,
             <br>
             <span class="videlenie">и получите двухлетний шенген
               <br xmlns="http://www.w3.org/1999/xhtml">в Польшу</span>
@@ -2723,7 +2912,7 @@
                 </div>
                 <div class="w-col w-col-8">
                   <h3 class="rev-head">виктор</h3>
-                  <p class="rev-par">Хочу выразить огромную благодарность этой фирме, а в частности отдельное спасибо Диане, всё было быстро понятно и легко,годовые визы на руках, мы довольные по самые уши, а вам желаю успехов и плодотворного труда. Продолжайте дальше радовать своих клиентов!!!</p>
+                  <p class="rev-par">Хочу выразить огромную благодарность этой фирме, а в частности отдельное спасибо Анастасии, всё было быстро понятно,годовые визы на руках, мы довольные по самые уши, а вам желаю успехов и плодотворного труда. Продолжайте дальше радовать своих клиентов!!!</p>
                 </div>
               </div>
             </div>
@@ -2757,9 +2946,10 @@
         <div class="reviews_w window">
           <div class="window-wrapper">
             <a class="close-btn w-inline-block" data-ix="close-box" href="#"></a>
-            <h3 class="window-header">Оставьте заявку и получите мультивизу уже через 7 дней</h3>
+            <h3 class="window-header">Отправьте отзыв - и наши&nbsp;
+              <br>специалисты разместят его</h3>
             <div class="w-form">
-              <form class="form-size" data-name="Оставили отзыв" data-redirect="/thanks.php" id="form-rewievs-1" name="wf-form-">
+              <form class="form-size" data-name="Оставили отзыв" data-redirect="/thanks.php" id="form-rewievs-1" name="wf-form-" redirect="/thanks.php">
                 <input class="margin text-field w-input" data-name="Имя" id="node-5" maxlength="256" placeholder="Введите Ваше имя" required="required" type="text">
                 <input class="margin text-field w-input" data-name="Email 3" id="email-3" maxlength="256" name="email" placeholder="Введите Ваш e-mail" required="required" type="email">
                 <textarea class="w-input" data-name="Отзыв" id="node-6" maxlength="5000" placeholder="Ваш отзыв" required="required">
@@ -2786,19 +2976,19 @@
     <div class="div-map-wrapper">
       <div class="div-wrapper-in-contact">
         <div class="map-contact n1">Режим работы:
-          <span class="bold-text">9:00 - 18:00</span>
+          <span class="bold-text">9:00 - 18:00 Пн-Пт</span>
         </div>
         <div class="map-contact n2">
           <span>Адрес:&nbsp;
-            <a xmlns="http://www.w3.org/1999/xhtml" class="bold-text" href="#">г.&nbsp;Минск, ул. Гурского 46, офис&nbsp;18&nbsp;</a>
+            <a xmlns="http://www.w3.org/1999/xhtml" href="#" class="bold-text">г.&nbsp;Минск, ул. Гурского 46, офис&nbsp;18&nbsp;</a>
           </span>
         </div>
         <div class="map-contact n3">Тел:
-          <a class="bold-text" href="tel:+375296855556">8 (029) 685-25-50</a>
+          <a href="tel:+375296852550" class="bold-text">8 (029) 685-25-50</a>
           <br>Skype:&nbsp;
-          <a class="bold-text" target="_blank" href="skype:visa-minsk">visa-minsk</a>
+          <a target="_blank" href="skype:visa-minsk" class="bold-text">visa-minsk</a>
           <br>Email:&nbsp;
-          <a class="bold-text" href="mailto:visaminsk.by@gmail.com?subject=From%20sait%20contacts">ovisa.info@gmail.com</a>
+          <a href="mailto:ovisa.info@gmail.com?subject=From sait contacts" class="bold-text">ovisa.info@gmail.com</a>
         </div>
       </div>
       <div class="map-block"><?php if(file_exists('map.php')){ include_once 'map.php'; } ?></div>
@@ -2808,7 +2998,7 @@
   </div>
   <div class="footer">
     <div class="container">
-      <div class="text-footer">© Павел Матвеенко. 2015.</div>
+      <div class="text-footer">© Павел Матвеенко. 2010.</div>
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
@@ -2816,9 +3006,7 @@
   <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
 <script type="text/javascript" src="./mail.js"></script>
-<script type="text/javascript">$(document).ready(function(){
-    $('[href$="brandjs"]').css({'display':'none'});
-  });</script>
+<script type="text/javascript">$(document).ready(function(){$('[href*="brandjs"]').attr('style', 'display:none !important');});</script>
 <?php if(file_exists('footer_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'))
     { include_once 'footer_code_'.pathinfo($_SERVER['REQUEST_URI'], PATHINFO_FILENAME).'.php'; } ?>
 <?php if(file_exists('footer_code.php')){ include_once 'footer_code.php'; } ?></body>
